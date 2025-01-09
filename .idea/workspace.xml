@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new project) add readme new project">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new exercise) add exercises of Stream Java new project StreamExample">
+      <change afterPath="$PROJECT_DIR$/Day01/src/LambdaExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/src/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/src/StreamExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +29,12 @@
     &quot;assignee&quot;: &quot;joaoscioli&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/joaoscioli/Java-Daily-Practice.git",
-    "accountId": "67a8006e-8d3f-4d06-913f-8196a06eca46"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/joaoscioli/Java-Daily-Practice.git&quot;,
+    &quot;accountId&quot;: &quot;67a8006e-8d3f-4d06-913f-8196a06eca46&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -50,6 +49,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.StreamExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice",
@@ -67,7 +67,14 @@
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LambdaExample">
+    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdaExample" />
+      <module name="Day01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamExample" />
       <module name="Day01" />
@@ -77,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.StreamExample" />
       </list>
     </recent_temporary>
@@ -97,7 +105,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736423166040</updated>
-      <workItem from="1736423167507" duration="7130000" />
+      <workItem from="1736423167507" duration="8146000" />
+      <workItem from="1736449075483" duration="1000" />
+      <workItem from="1736449225905" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -107,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736429250290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat (new exercise) add exercises of Stream Java new project StreamExample">
+      <option name="closed" value="true" />
+      <created>1736439251945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736439251945</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat (new project) add readme new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (new project) add readme new project" />
+    <MESSAGE value="feat (new exercise) add exercises of Stream Java new project StreamExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (new exercise) add exercises of Stream Java new project StreamExample" />
   </component>
 </project>
