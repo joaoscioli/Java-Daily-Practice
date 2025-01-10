@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new exercise) add exercises of Lambda Java new project LambdaExample">
-      <change afterPath="$PROJECT_DIR$/Day01/demoApi/src/main/java/org/example/demoapi/Controller.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new exercise) add exercise of Leetcode API  project array">
+      <change afterPath="$PROJECT_DIR$/Day02/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/src/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/src/CollectionsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/src/CustomSortingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/src/Par.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/src/TestArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/src/TestHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +54,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.CustomSortingExample.executor": "Run",
     "Application.LambdaExample.executor": "Run",
     "Application.StreamExample.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth0": "793",
+    "RequestMappingsPanelWidth1": "793",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.DemoApiApplication.executor": "Run",
@@ -78,7 +86,14 @@
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApiApplication">
+  <component name="RunManager" selected="Application.TestHashMap">
+    <configuration name="CustomSortingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomSortingExample" />
+      <module name="Day02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LambdaExample" />
       <module name="Day01" />
@@ -89,6 +104,13 @@
     <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamExample" />
       <module name="Day01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestHashMap" />
+      <module name="Day02" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,6 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHashMap" />
+        <item itemvalue="Application.CustomSortingExample" />
         <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.StreamExample" />
       </list>
@@ -157,7 +181,8 @@
       <workItem from="1736423167507" duration="8146000" />
       <workItem from="1736449075483" duration="1000" />
       <workItem from="1736449225905" duration="2845000" />
-      <workItem from="1736466911683" duration="1188000" />
+      <workItem from="1736466911683" duration="2055000" />
+      <workItem from="1736513272713" duration="7290000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -183,7 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736452058157</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat (new exercise) add exercise of SpringBoot API  project demoApi">
+      <option name="closed" value="true" />
+      <created>1736469182011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736469182011</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat (new exercise) add exercise of Leetcode API  project array">
+      <option name="closed" value="true" />
+      <created>1736469241722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736469241722</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +234,9 @@
     <MESSAGE value="feat (new project) add readme new project" />
     <MESSAGE value="feat (new exercise) add exercises of Stream Java new project StreamExample" />
     <MESSAGE value="feat (new exercise) add exercises of Lambda Java new project LambdaExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (new exercise) add exercises of Lambda Java new project LambdaExample" />
+    <MESSAGE value="feat (new exercise) add exercise of SpringBoot API  project demoApi" />
+    <MESSAGE value="feat (new exercise) add exercise of Leetcode API  project array" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (new exercise) add exercise of Leetcode API  project array" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
