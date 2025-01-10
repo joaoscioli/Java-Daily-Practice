@@ -10,7 +10,7 @@
 
 ## ✅ Task 3: LeetCode Challenge
 - **Problem:** Two Sum
-- **Solution:** See the code and explanation in my [LeetCode profile](https://leetcode.com/).
+- **Solution:** See the code and explanation in my https://leetcode.com/problems/two-sum/submissions/1503521372).
 
 ---
 
