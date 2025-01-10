@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new exercise) add exercises of Stream Java new project StreamExample">
-      <change afterPath="$PROJECT_DIR$/Day01/src/LambdaExample.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new exercise) add exercises of Lambda Java new project LambdaExample">
+      <change afterPath="$PROJECT_DIR$/Day01/demoApi/src/main/java/org/example/demoapi/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,17 +47,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.LambdaExample.executor": "Run",
     "Application.StreamExample.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.DemoApiApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice",
+    "last_opened_file_path": "C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice/Day01/demoApi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,7 +78,7 @@
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaExample">
+  <component name="RunManager" selected="Spring Boot.DemoApiApplication">
     <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LambdaExample" />
       <module name="Day01" />
@@ -78,6 +89,41 @@
     <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamExample" />
       <module name="Day01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Day01/demoApi" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="DemoApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demoApi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.demoapi.DemoApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +144,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="" />
@@ -107,7 +156,8 @@
       <updated>1736423166040</updated>
       <workItem from="1736423167507" duration="8146000" />
       <workItem from="1736449075483" duration="1000" />
-      <workItem from="1736449225905" duration="1370000" />
+      <workItem from="1736449225905" duration="2845000" />
+      <workItem from="1736466911683" duration="1188000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -125,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736439251945</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat (new exercise) add exercises of Lambda Java new project LambdaExample">
+      <option name="closed" value="true" />
+      <created>1736452058157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736452058157</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +192,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat (new project) add readme new project" />
     <MESSAGE value="feat (new exercise) add exercises of Stream Java new project StreamExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (new exercise) add exercises of Stream Java new project StreamExample" />
+    <MESSAGE value="feat (new exercise) add exercises of Lambda Java new project LambdaExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (new exercise) add exercises of Lambda Java new project LambdaExample" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
