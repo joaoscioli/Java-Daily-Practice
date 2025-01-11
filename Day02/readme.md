@@ -3,6 +3,7 @@
 ## ✅ Task 1: Collections & Generics Practice
 - **Objective:** Practice using Java Collections Framework and Generics.
 - **Files:** [CollectionsAndGenericsExample.java](src/CollectionsAndGenericsExample.java)
+- **Links:** [Collections Framework Overview](https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/util/doc-files/coll-overview.html)
 
 ### Key Concepts:
 - Lists, Sets, and Maps
