@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new exercise) add project of RestApiProject add project Day two" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new project) add readme Day Three">
+      <change afterPath="$PROJECT_DIR$/Day03/src/StructuredConcurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day03/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,46 +45,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Application.CustomSortingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RestApiProject [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RestApiProject [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.DemoApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.RestApiProjectApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice/Day01/demoApi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.CustomSortingExample.executor": "Run",
+    "Application.LambdaExample.executor": "Run",
+    "Application.StreamExample.executor": "Run",
+    "Application.StructuredConcurrency.executor": "Run",
+    "Application.TestHashMap.executor": "Run",
+    "Maven.RestApiProject [clean].executor": "Run",
+    "Maven.RestApiProject [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.DemoApiApplication.executor": "Run",
+    "Spring Boot.RestApiProjectApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice/Day01/demoApi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01\src" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RestApiProjectApplication">
+  <component name="RunManager" selected="Application.StructuredConcurrency">
     <configuration name="CustomSortingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CustomSortingExample" />
       <module name="Day02" />
@@ -98,6 +103,13 @@
     <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamExample" />
       <module name="Day01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructuredConcurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuredConcurrency" />
+      <module name="Day03" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,6 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StructuredConcurrency" />
         <item itemvalue="Application.TestHashMap" />
         <item itemvalue="Application.CustomSortingExample" />
         <item itemvalue="Application.LambdaExample" />
@@ -186,7 +199,8 @@
       <workItem from="1736513272713" duration="9129000" />
       <workItem from="1736541617505" duration="692000" />
       <workItem from="1736620363122" duration="289000" />
-      <workItem from="1736632722011" duration="1323000" />
+      <workItem from="1736632722011" duration="1396000" />
+      <workItem from="1736699240598" duration="1576000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -244,7 +258,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736633914842</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat (new day) add Day three">
+      <option name="closed" value="true" />
+      <created>1736634092526</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736634092526</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat (new project) add readme Day Three">
+      <option name="closed" value="true" />
+      <created>1736700132094</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736700132094</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +288,9 @@
     <MESSAGE value="feat (new exercise) add exercise of Leetcode API  project array" />
     <MESSAGE value="feat (new exercise) add exercise of Collection and Generics project Day two" />
     <MESSAGE value="feat (new exercise) add project of RestApiProject add project Day two" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (new exercise) add project of RestApiProject add project Day two" />
+    <MESSAGE value="feat (new day) add Day three" />
+    <MESSAGE value="feat (new project) add readme Day Three" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (new project) add readme Day Three" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
