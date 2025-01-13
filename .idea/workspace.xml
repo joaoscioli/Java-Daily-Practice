@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new project) add readme Day Three">
-      <change afterPath="$PROJECT_DIR$/Day03/src/StructuredConcurrency.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new project) add task main Day Three">
+      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day03/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02/RestApiProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day02/RestApiProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02/RestApiProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -36,6 +40,10 @@
     &quot;accountId&quot;: &quot;67a8006e-8d3f-4d06-913f-8196a06eca46&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -53,6 +61,8 @@
     "Application.StreamExample.executor": "Run",
     "Application.StructuredConcurrency.executor": "Run",
     "Application.TestHashMap.executor": "Run",
+    "Docker.RestApiProject.postgres: Compose Deployment.executor": "Run",
+    "Docker.RestApiProject: Compose Deployment.executor": "Run",
     "Maven.RestApiProject [clean].executor": "Run",
     "Maven.RestApiProject [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -77,6 +87,11 @@
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "build.tools",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -85,28 +100,7 @@
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StructuredConcurrency">
-    <configuration name="CustomSortingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomSortingExample" />
-      <module name="Day02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExample" />
-      <module name="Day01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamExample" />
-      <module name="Day01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Database Script.schema.sql">
     <configuration name="StructuredConcurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuredConcurrency" />
       <module name="Day03" />
@@ -114,12 +108,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestHashMap" />
-      <module name="Day02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="data.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Day02/RestApiProject/data.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="schema.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Day02/RestApiProject/schema.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -163,13 +160,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestApiProject: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="Day02/RestApiProject/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestApiProject.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Day02/RestApiProject/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.schema.sql" />
+        <item itemvalue="Database Script.data.sql" />
+        <item itemvalue="Docker.RestApiProject.postgres: Compose Deployment" />
+        <item itemvalue="Docker.RestApiProject: Compose Deployment" />
         <item itemvalue="Application.StructuredConcurrency" />
-        <item itemvalue="Application.TestHashMap" />
-        <item itemvalue="Application.CustomSortingExample" />
-        <item itemvalue="Application.LambdaExample" />
-        <item itemvalue="Application.StreamExample" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +223,8 @@
       <workItem from="1736541617505" duration="692000" />
       <workItem from="1736620363122" duration="289000" />
       <workItem from="1736632722011" duration="1396000" />
-      <workItem from="1736699240598" duration="1576000" />
+      <workItem from="1736699240598" duration="1608000" />
+      <workItem from="1736784073969" duration="4172000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -274,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736700132094</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat (new project) add task main Day Three">
+      <option name="closed" value="true" />
+      <created>1736700844688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736700844688</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +322,8 @@
     <MESSAGE value="feat (new exercise) add project of RestApiProject add project Day two" />
     <MESSAGE value="feat (new day) add Day three" />
     <MESSAGE value="feat (new project) add readme Day Three" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (new project) add readme Day Three" />
+    <MESSAGE value="feat (new project) add task main Day Three" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (new project) add task main Day Three" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
