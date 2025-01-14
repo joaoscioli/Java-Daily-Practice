@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new project) add task main Day Three">
-      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/schema.sql" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new project) add Day Four">
+      <change afterPath="$PROJECT_DIR$/Day04/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day04/src/AdvancedStreamsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/RestApiProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day02/RestApiProject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/RestApiProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day04/src/ParallelStreamExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,10 +38,10 @@
     &quot;accountId&quot;: &quot;67a8006e-8d3f-4d06-913f-8196a06eca46&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -58,6 +56,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.CustomSortingExample.executor": "Run",
     "Application.LambdaExample.executor": "Run",
+    "Application.ParallelStreamExample.executor": "Run",
     "Application.StreamExample.executor": "Run",
     "Application.StructuredConcurrency.executor": "Run",
     "Application.TestHashMap.executor": "Run",
@@ -100,10 +99,10 @@
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.schema.sql">
-    <configuration name="StructuredConcurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuredConcurrency" />
-      <module name="Day03" />
+  <component name="RunManager" selected="Application.ParallelStreamExample">
+    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParallelStreamExample" />
+      <module name="Day04" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,16 +182,18 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelStreamExample" />
         <item itemvalue="Database Script.schema.sql" />
         <item itemvalue="Database Script.data.sql" />
         <item itemvalue="Docker.RestApiProject.postgres: Compose Deployment" />
         <item itemvalue="Docker.RestApiProject: Compose Deployment" />
-        <item itemvalue="Application.StructuredConcurrency" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +225,8 @@
       <workItem from="1736620363122" duration="289000" />
       <workItem from="1736632722011" duration="1396000" />
       <workItem from="1736699240598" duration="1608000" />
-      <workItem from="1736784073969" duration="4172000" />
+      <workItem from="1736784073969" duration="4687000" />
+      <workItem from="1736813642311" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -306,7 +308,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736700844688</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat (new project) add Task 2: Database Setup (PostgreSQL) main Day Three">
+      <option name="closed" value="true" />
+      <created>1736788762365</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736788762365</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat (new project) add Day Four">
+      <option name="closed" value="true" />
+      <created>1736788814341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736788814341</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +341,9 @@
     <MESSAGE value="feat (new day) add Day three" />
     <MESSAGE value="feat (new project) add readme Day Three" />
     <MESSAGE value="feat (new project) add task main Day Three" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (new project) add task main Day Three" />
+    <MESSAGE value="feat (new project) add Task 2: Database Setup (PostgreSQL) main Day Three" />
+    <MESSAGE value="feat (new project) add Day Four" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (new project) add Day Four" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
