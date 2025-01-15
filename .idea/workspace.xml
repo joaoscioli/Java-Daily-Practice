@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new project) add second task for Day Four">
-      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/main/java/org/example/restapiproject/post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/main/java/org/example/restapiproject/service/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/main/java/org/example/restapiproject/service/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/main/java/org/example/restapiproject/service/SecurityConfig.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="fix (jwt authenticate) fix second task for Day Four">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/RestApiProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day02/RestApiProject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/RestApiProject/src/main/java/org/example/restapiproject/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/main/java/org/example/restapiproject/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/src/main/java/org/example/jwtauthenticationproject/JwtAuthenticationProjectApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/JwtAuthenticationProject/src/test/java/org/example/jwtauthenticationproject/JwtAuthenticationProjectApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +208,8 @@
       <workItem from="1736873635014" duration="4008000" />
       <workItem from="1736882101186" duration="90000" />
       <workItem from="1736882202255" duration="3601000" />
-      <workItem from="1736944822978" duration="5069000" />
+      <workItem from="1736944822978" duration="5193000" />
+      <workItem from="1736982435173" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -339,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736874362110</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix (jwt authenticate) fix second task for Day Four">
+      <option name="closed" value="true" />
+      <created>1736951135151</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736951135151</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +352,8 @@
     <MESSAGE value="feat (new project) add Day Four" />
     <MESSAGE value="feat (new project) add main task and readme.md to Day Four" />
     <MESSAGE value="feat (new project) add second task for Day Four" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (new project) add second task for Day Four" />
+    <MESSAGE value="fix (jwt authenticate) fix second task for Day Four" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix (jwt authenticate) fix second task for Day Four" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
