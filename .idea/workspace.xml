@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="fix (jwt authenticate) fix second task for Day Four">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (day five) add new Day Five">
+      <change afterPath="$PROJECT_DIR$/Day05/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day05/taskManagerApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day05/taskManagerApp/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day05/taskManagerApp/TaskManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day05/Day05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day05/Day05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day05/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +215,7 @@
       <workItem from="1736882101186" duration="90000" />
       <workItem from="1736882202255" duration="3601000" />
       <workItem from="1736944822978" duration="5193000" />
-      <workItem from="1736982435173" duration="10000" />
+      <workItem from="1736982435173" duration="1220000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -331,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736951135151</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat (day five) add new Day Five">
+      <option name="closed" value="true" />
+      <created>1736982551483</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736982551483</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +367,8 @@
     <MESSAGE value="feat (new project) add main task and readme.md to Day Four" />
     <MESSAGE value="feat (new project) add second task for Day Four" />
     <MESSAGE value="fix (jwt authenticate) fix second task for Day Four" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix (jwt authenticate) fix second task for Day Four" />
+    <MESSAGE value="feat (day five) add new Day Five" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (day five) add new Day Five" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
