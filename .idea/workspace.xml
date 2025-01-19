@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="doc (doc swagger) add documentation swagger patterns from project RestApi">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="add (new day) add file new Day Six">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +211,8 @@
       <workItem from="1736944822978" duration="5193000" />
       <workItem from="1736982435173" duration="1519000" />
       <workItem from="1737153027076" duration="1152000" />
-      <workItem from="1737240628035" duration="6000" />
+      <workItem from="1737240628035" duration="104000" />
+      <workItem from="1737328803486" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -357,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737154171562</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add (new day) add file new Day Six">
+      <option name="closed" value="true" />
+      <created>1737240698745</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1737240698745</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +391,8 @@
     <MESSAGE value="feat (day five) add new Day Five" />
     <MESSAGE value="feat (new project) add new project to Task one from Day Five" />
     <MESSAGE value="doc (doc swagger) add documentation swagger patterns from project RestApi" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc (doc swagger) add documentation swagger patterns from project RestApi" />
+    <MESSAGE value="add (new day) add file new Day Six" />
+    <option name="LAST_COMMIT_MESSAGE" value="add (new day) add file new Day Six" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
