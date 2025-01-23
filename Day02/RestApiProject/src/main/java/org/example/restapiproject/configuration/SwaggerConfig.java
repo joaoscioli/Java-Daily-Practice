@@ -16,7 +16,6 @@ public class SwaggerConfig {
                         .version("1.0")
                         .description("API for REST API Project")
                 .license(new License().name("Apache 2.0")
-                .url("http://www.apache.org/licenses/LICENSE-2.0.html")
                 ));
 
     }
