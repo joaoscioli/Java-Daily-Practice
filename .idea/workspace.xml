@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="fix (swagger api access) fix access Swagger Config for Day Six">
-      <change afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/test/java/org/example/restapiproject/StudentControllerTest.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (test mock) test mock to GET Method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/RestApiProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day02/RestApiProject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/RestApiProject/src/main/java/org/example/restapiproject/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/main/java/org/example/restapiproject/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02/RestApiProject/src/test/java/org/example/restapiproject/StudentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day02/RestApiProject/src/test/java/org/example/restapiproject/StudentControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +83,7 @@
     "Docker.RestApiProject.postgres: Compose Deployment.executor": "Run",
     "Docker.RestApiProject: Compose Deployment.executor": "Run",
     "Gradle.Build JwtAuthenticationProject.executor": "Run",
+    "JUnit.StudentControllerTest.executor": "Run",
     "JUnit.StudentControllerTest.shouldReturnAllStudent.executor": "Run",
     "Maven.RestApiProject [clean].executor": "Run",
     "Maven.RestApiProject [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
@@ -136,7 +135,22 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentControllerTest.shouldReturnAllStudent">
+  <component name="RunManager" selected="JUnit.StudentControllerTest">
+    <configuration name="StudentControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestApiProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.restapiproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.restapiproject" />
+      <option name="MAIN_CLASS_NAME" value="org.example.restapiproject.StudentControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentControllerTest.shouldReturnAllStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestApiProject" />
       <extension name="coverage">
@@ -196,6 +210,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentControllerTest" />
         <item itemvalue="JUnit.StudentControllerTest.shouldReturnAllStudent" />
       </list>
     </recent_temporary>
@@ -239,7 +254,8 @@
       <workItem from="1737240628035" duration="104000" />
       <workItem from="1737328803486" duration="248000" />
       <workItem from="1737499805204" duration="42000" />
-      <workItem from="1737628718555" duration="2681000" />
+      <workItem from="1737628718555" duration="3384000" />
+      <workItem from="1737761866981" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -409,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737629376774</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat (test mock) test mock to GET Method">
+      <option name="closed" value="true" />
+      <created>1737631475075</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1737631475075</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +461,8 @@
     <MESSAGE value="add (new day) add file new Day Six" />
     <MESSAGE value="doc (add readme) add readme for Day Six" />
     <MESSAGE value="fix (swagger api access) fix access Swagger Config for Day Six" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix (swagger api access) fix access Swagger Config for Day Six" />
+    <MESSAGE value="feat (test mock) test mock to GET Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (test mock) test mock to GET Method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
