@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new day) add new Day files and readme.md for Day Seven">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new day) add new Day files and readme.md for Day eight" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,8 +225,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentRepositoryTest" />
-        <item itemvalue="JUnit.StudentControllerTest" />
         <item itemvalue="JUnit.StudentControllerTest.shouldReturnAllStudent" />
+        <item itemvalue="JUnit.StudentControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +271,7 @@
       <workItem from="1737499805204" duration="42000" />
       <workItem from="1737628718555" duration="3384000" />
       <workItem from="1737761866981" duration="2025000" />
-      <workItem from="1738187179131" duration="14000" />
+      <workItem from="1738187179131" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -475,14 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1737763888829</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat (new day) add new Day files and readme.md for Day eight">
+      <option name="closed" value="true" />
+      <created>1738187344547</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1738187344547</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (new project) add readme new project" />
     <MESSAGE value="feat (new exercise) add exercises of Stream Java new project StreamExample" />
     <MESSAGE value="feat (new exercise) add exercises of Lambda Java new project LambdaExample" />
     <MESSAGE value="feat (new exercise) add exercise of SpringBoot API  project demoApi" />
@@ -507,7 +512,8 @@
     <MESSAGE value="fix (test spring) modify class test with springBootTest to GET Method" />
     <MESSAGE value="fix (test JaCoCo)resolve incompatibility with JaCoCo and Java 21" />
     <MESSAGE value="feat (new day) add new Day files and readme.md for Day Seven" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (new day) add new Day files and readme.md for Day Seven" />
+    <MESSAGE value="feat (new day) add new Day files and readme.md for Day eight" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (new day) add new Day files and readme.md for Day eight" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
