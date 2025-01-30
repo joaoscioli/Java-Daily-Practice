@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (new day) add new Day files and readme.md for Day eight" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (tasks) add new tasks and readme.md for Day eight">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +65,6 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2rOHNlikqYdMSS0Uojr8odEG4hp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -209,6 +210,20 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="DemoApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demoApi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.demoapi.DemoApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcommerceApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ecommerce-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ecommerceapi.EcommerceApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestApiProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="RestApiProject" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.restapiproject.RestApiProjectApplication" />
@@ -233,8 +248,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+        <option value="bundled-jdk-9823dce3aa75-28390b856d98-intellij.indexing.shared.core-IU-251.18673.35" />
+        <option value="bundled-js-predefined-d6986cc7102b-4027fba43365-JavaScript-IU-251.18673.35" />
       </set>
     </attachedChunks>
   </component>
@@ -271,7 +286,8 @@
       <workItem from="1737499805204" duration="42000" />
       <workItem from="1737628718555" duration="3384000" />
       <workItem from="1737761866981" duration="2025000" />
-      <workItem from="1738187179131" duration="192000" />
+      <workItem from="1738187179131" duration="355000" />
+      <workItem from="1738279015187" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -481,14 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1738187344547</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat (tasks) add new tasks and readme.md for Day eight">
+      <option name="closed" value="true" />
+      <created>1738187532688</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1738187532688</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (new exercise) add exercises of Stream Java new project StreamExample" />
     <MESSAGE value="feat (new exercise) add exercises of Lambda Java new project LambdaExample" />
     <MESSAGE value="feat (new exercise) add exercise of SpringBoot API  project demoApi" />
     <MESSAGE value="feat (new exercise) add exercise of Leetcode API  project array" />
@@ -513,7 +536,8 @@
     <MESSAGE value="fix (test JaCoCo)resolve incompatibility with JaCoCo and Java 21" />
     <MESSAGE value="feat (new day) add new Day files and readme.md for Day Seven" />
     <MESSAGE value="feat (new day) add new Day files and readme.md for Day eight" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (new day) add new Day files and readme.md for Day eight" />
+    <MESSAGE value="feat (tasks) add new tasks and readme.md for Day eight" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (tasks) add new tasks and readme.md for Day eight" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
