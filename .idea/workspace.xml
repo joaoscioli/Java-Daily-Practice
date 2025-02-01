@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (tasks) add new tasks and readme.md for Day eight">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="doc (add doc) add new doc for new project ecommerce-api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +93,7 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\joaos\\AppData\\Roaming\\JetBrains\\IntelliJIdea2024.3\\plugins\\Shell Script\\shellcheck.exe&quot;,
     &quot;Shell Script.gradlew.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.DemoApiApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.JwtAuthenticationProjectApplication.executor&quot;: &quot;Run&quot;,
@@ -135,7 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentRepositoryTest">
+  <component name="RunManager" selected="Spring Boot.EcommerceApiApplication">
     <configuration name="StudentControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestApiProject" />
       <extension name="coverage">
@@ -287,7 +288,8 @@
       <workItem from="1737628718555" duration="3384000" />
       <workItem from="1737761866981" duration="2025000" />
       <workItem from="1738187179131" duration="355000" />
-      <workItem from="1738279015187" duration="378000" />
+      <workItem from="1738279015187" duration="645000" />
+      <workItem from="1738427129098" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -505,14 +507,21 @@
       <option name="project" value="LOCAL" />
       <updated>1738187532688</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="doc (add doc) add new doc for new project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1738279548901</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1738279548901</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (new exercise) add exercises of Lambda Java new project LambdaExample" />
     <MESSAGE value="feat (new exercise) add exercise of SpringBoot API  project demoApi" />
     <MESSAGE value="feat (new exercise) add exercise of Leetcode API  project array" />
     <MESSAGE value="feat (new exercise) add exercise of Collection and Generics project Day two" />
@@ -537,7 +546,8 @@
     <MESSAGE value="feat (new day) add new Day files and readme.md for Day Seven" />
     <MESSAGE value="feat (new day) add new Day files and readme.md for Day eight" />
     <MESSAGE value="feat (tasks) add new tasks and readme.md for Day eight" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (tasks) add new tasks and readme.md for Day eight" />
+    <MESSAGE value="doc (add doc) add new doc for new project ecommerce-api" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc (add doc) add new doc for new project ecommerce-api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -12,6 +12,25 @@ This API provides basic functionalities for an e-commerce system, including user
 - Spring Security with JWT
 - Swagger for documentation
 
+## Architecture
+This project follows a **Hexagonal Architecture (Ports and Adapters)** approach to separate business logic from external dependencies.
+
+### **Layers**:
+- **Application Layer**: Contains use cases (services) and orchestrates the business logic.
+- **Domain Layer**: Contains core business logic and entities, following the **DDD (Domain-Driven Design)** principles.
+- **Infrastructure Layer**: Manages external dependencies such as databases, APIs, and security.
+- **Adapters**: Provide implementations for database access, external API integrations, and authentication.
+
+### **Component Interaction**
+```mermaid
+graph TD;
+  Controller -->|Calls| Service;
+  Service -->|Uses| Repository;
+  Repository -->|Connects| Database;
+  Service -->|Uses| ExternalAPI;
+```
+This structure ensures a clean separation of concerns, making the system scalable and maintainable.
+
 ## Requirements
 - JDK 23+
 - Maven 3+
@@ -87,4 +106,3 @@ Contributions are welcome! To suggest improvements:
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
