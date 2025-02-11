@@ -4,10 +4,12 @@ import org.example.ecommerceapi.application.dto.ProductDTO;
 import org.example.ecommerceapi.application.mapper.ProductMapper;
 import org.example.ecommerceapi.domain.model.Product;
 import org.example.ecommerceapi.domain.repository.ProductRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class ProductService {
     private final ProductRepository productRepository;
 
