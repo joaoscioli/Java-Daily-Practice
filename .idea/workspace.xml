@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (package infrastructure) add classes and repository to project ecommerce-api">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="fix (fixes bug security) fix bug SecurityConfig class remove csfr to project ecommerce-api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -294,7 +294,8 @@
       <workItem from="1738427129098" duration="2083000" />
       <workItem from="1738708147825" duration="674000" />
       <workItem from="1738796429229" duration="1070000" />
-      <workItem from="1739055679521" duration="11000" />
+      <workItem from="1739055679521" duration="119000" />
+      <workItem from="1739314792449" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -584,14 +585,21 @@
       <option name="project" value="LOCAL" />
       <updated>1738797498290</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fix (fixes bug security) fix bug SecurityConfig class remove csfr to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1739055777576</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1739055777576</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (new project) add Day Four" />
     <MESSAGE value="feat (new project) add main task and readme.md to Day Four" />
     <MESSAGE value="feat (new project) add second task for Day Four" />
     <MESSAGE value="fix (jwt authenticate) fix second task for Day Four" />
@@ -616,7 +624,8 @@
     <MESSAGE value="feat (package application) add code classes for package mapper to project ecommerce-api" />
     <MESSAGE value="feat (package infrastructure) add packages and subpackages infrastructure to project ecommerce-api" />
     <MESSAGE value="feat (package infrastructure) add classes and repository to project ecommerce-api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (package infrastructure) add classes and repository to project ecommerce-api" />
+    <MESSAGE value="fix (fixes bug security) fix bug SecurityConfig class remove csfr to project ecommerce-api" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix (fixes bug security) fix bug SecurityConfig class remove csfr to project ecommerce-api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
