@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Order class) add Order class domain.model to project ecommerce-api" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Role class) add Role class domain.model to project ecommerce-api">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +297,8 @@
       <workItem from="1739055679521" duration="119000" />
       <workItem from="1739314792449" duration="824000" />
       <workItem from="1739406284500" duration="56000" />
-      <workItem from="1739492953064" duration="322000" />
+      <workItem from="1739492953064" duration="619000" />
+      <workItem from="1739574595442" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -625,16 +628,37 @@
       <option name="project" value="LOCAL" />
       <updated>1739493272429</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="feat (Cart class) add Cart class domain.model to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1739493383524</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1739493383524</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat (User class) add User class domain.model to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1739493514994</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1739493514994</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat (Role class) add Role class domain.model to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1739493561515</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1739493561515</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (new project) add new project to Task one from Day Five" />
-    <MESSAGE value="doc (doc swagger) add documentation swagger patterns from project RestApi" />
-    <MESSAGE value="add (new day) add file new Day Six" />
     <MESSAGE value="doc (add readme) add readme for Day Six" />
     <MESSAGE value="fix (swagger api access) fix access Swagger Config for Day Six" />
     <MESSAGE value="feat (test mock) test mock to GET Method" />
@@ -657,7 +681,10 @@
     <MESSAGE value="feat (add ProductController) add class ProductController to project ecommerce-api" />
     <MESSAGE value="doc (doc) add doc class ProductController to project ecommerce-api" />
     <MESSAGE value="feat (Order class) add Order class domain.model to project ecommerce-api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (Order class) add Order class domain.model to project ecommerce-api" />
+    <MESSAGE value="feat (Cart class) add Cart class domain.model to project ecommerce-api" />
+    <MESSAGE value="feat (User class) add User class domain.model to project ecommerce-api" />
+    <MESSAGE value="feat (Role class) add Role class domain.model to project ecommerce-api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (Role class) add Role class domain.model to project ecommerce-api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
