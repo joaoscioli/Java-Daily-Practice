@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (add ProductController) add class ProductController to project ecommerce-api">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="doc (doc) add doc class ProductController to project ecommerce-api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -296,7 +296,8 @@
       <workItem from="1738796429229" duration="1070000" />
       <workItem from="1739055679521" duration="119000" />
       <workItem from="1739314792449" duration="824000" />
-      <workItem from="1739406284500" duration="3000" />
+      <workItem from="1739406284500" duration="56000" />
+      <workItem from="1739492953064" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -610,14 +611,21 @@
       <option name="project" value="LOCAL" />
       <updated>1739315608784</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="doc (doc) add doc class ProductController to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1739406332417</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1739406332417</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix (jwt authenticate) fix second task for Day Four" />
     <MESSAGE value="feat (day five) add new Day Five" />
     <MESSAGE value="feat (new project) add new project to Task one from Day Five" />
     <MESSAGE value="doc (doc swagger) add documentation swagger patterns from project RestApi" />
@@ -642,7 +650,8 @@
     <MESSAGE value="fix (fixes bug security) fix bug SecurityConfig class remove csfr to project ecommerce-api" />
     <MESSAGE value="feat (new packages) add package adapter and sub packages to project ecommerce-api" />
     <MESSAGE value="feat (add ProductController) add class ProductController to project ecommerce-api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (add ProductController) add class ProductController to project ecommerce-api" />
+    <MESSAGE value="doc (doc) add doc class ProductController to project ecommerce-api" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc (doc) add doc class ProductController to project ecommerce-api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
