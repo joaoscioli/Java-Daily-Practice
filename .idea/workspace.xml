@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Repository interface) add OrderRepository domain.repository to project ecommerce-api">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Repository interface) add CartRepository domain.repository to project ecommerce-api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +299,8 @@
       <workItem from="1739406284500" duration="56000" />
       <workItem from="1739492953064" duration="619000" />
       <workItem from="1739574595442" duration="210000" />
-      <workItem from="1739661773869" duration="7000" />
+      <workItem from="1739661773869" duration="281000" />
+      <workItem from="1739749994170" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -661,14 +662,21 @@
       <option name="project" value="LOCAL" />
       <updated>1739574809430</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="feat (Repository interface) add CartRepository domain.repository to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1739662050444</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1739662050444</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix (swagger api access) fix access Swagger Config for Day Six" />
     <MESSAGE value="feat (test mock) test mock to GET Method" />
     <MESSAGE value="fix (test spring) modify class test with springBootTest to GET Method" />
     <MESSAGE value="fix (test JaCoCo)resolve incompatibility with JaCoCo and Java 21" />
@@ -693,7 +701,8 @@
     <MESSAGE value="feat (User class) add User class domain.model to project ecommerce-api" />
     <MESSAGE value="feat (Role class) add Role class domain.model to project ecommerce-api" />
     <MESSAGE value="feat (Repository interface) add OrderRepository domain.repository to project ecommerce-api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (Repository interface) add OrderRepository domain.repository to project ecommerce-api" />
+    <MESSAGE value="feat (Repository interface) add CartRepository domain.repository to project ecommerce-api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (Repository interface) add CartRepository domain.repository to project ecommerce-api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
