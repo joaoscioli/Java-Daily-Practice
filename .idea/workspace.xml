@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Service class) add OrderDomainService domain.service to project ecommerce-api">
-      <change afterPath="$PROJECT_DIR$/Day08/ecommerce-api/src/main/java/org/example/ecommerceapi/adapter/controller/ProductController.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Service class) add ProductController adapter.controller to project ecommerce-api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -303,7 +302,8 @@
       <workItem from="1739661773869" duration="281000" />
       <workItem from="1739749994170" duration="293000" />
       <workItem from="1739835627463" duration="190000" />
-      <workItem from="1740006124571" duration="310000" />
+      <workItem from="1740006124571" duration="393000" />
+      <workItem from="1740102546641" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="feat (new project) add readme new project">
       <option name="closed" value="true" />
@@ -689,14 +689,21 @@
       <option name="project" value="LOCAL" />
       <updated>1739835805593</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="feat (Service class) add ProductController adapter.controller to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1740006506707</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1740006506707</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix (test JaCoCo)resolve incompatibility with JaCoCo and Java 21" />
     <MESSAGE value="feat (new day) add new Day files and readme.md for Day Seven" />
     <MESSAGE value="feat (new day) add new Day files and readme.md for Day eight" />
     <MESSAGE value="feat (tasks) add new tasks and readme.md for Day eight" />
@@ -721,7 +728,8 @@
     <MESSAGE value="feat (Repository interface) add CartRepository domain.repository to project ecommerce-api" />
     <MESSAGE value="feat (Repository interface) add UserRepository domain.repository to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add OrderDomainService domain.service to project ecommerce-api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (Service class) add OrderDomainService domain.service to project ecommerce-api" />
+    <MESSAGE value="feat (Service class) add ProductController adapter.controller to project ecommerce-api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (Service class) add ProductController adapter.controller to project ecommerce-api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
