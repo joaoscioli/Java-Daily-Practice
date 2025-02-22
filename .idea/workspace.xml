@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Service class) add ProductJpaRepository adapter.persistence to project ecommerce-api">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Service class) add SecurityConfig adapter.security to project ecommerce-api" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,15 +302,8 @@
       <workItem from="1739835627463" duration="190000" />
       <workItem from="1740006124571" duration="393000" />
       <workItem from="1740102546641" duration="167000" />
-      <workItem from="1740182657228" duration="11000" />
-    </task>
-    <task id="LOCAL-00002" summary="feat (new exercise) add exercises of Stream Java new project StreamExample">
-      <option name="closed" value="true" />
-      <created>1736439251945</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1736439251945</updated>
+      <workItem from="1740182657228" duration="118000" />
+      <workItem from="1740262336021" duration="4000" />
     </task>
     <task id="LOCAL-00003" summary="feat (new exercise) add exercises of Lambda Java new project LambdaExample">
       <option name="closed" value="true" />
@@ -698,14 +689,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740102702077</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="feat (Service class) add SecurityConfig adapter.security to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1740182763477</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1740182763477</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (new day) add new Day files and readme.md for Day eight" />
     <MESSAGE value="feat (tasks) add new tasks and readme.md for Day eight" />
     <MESSAGE value="doc (add doc) add new doc for new project ecommerce-api" />
     <MESSAGE value="doc (update doc) update readme doc for project ecommerce-api" />
@@ -730,7 +728,8 @@
     <MESSAGE value="feat (Service class) add OrderDomainService domain.service to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add ProductController adapter.controller to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add ProductJpaRepository adapter.persistence to project ecommerce-api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (Service class) add ProductJpaRepository adapter.persistence to project ecommerce-api" />
+    <MESSAGE value="feat (Service class) add SecurityConfig adapter.security to project ecommerce-api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (Service class) add SecurityConfig adapter.security to project ecommerce-api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
