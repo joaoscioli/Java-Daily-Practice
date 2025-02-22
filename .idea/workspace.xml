@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Service class) add ProductController adapter.controller to project ecommerce-api">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Service class) add ProductJpaRepository adapter.persistence to project ecommerce-api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -303,15 +303,8 @@
       <workItem from="1739749994170" duration="293000" />
       <workItem from="1739835627463" duration="190000" />
       <workItem from="1740006124571" duration="393000" />
-      <workItem from="1740102546641" duration="11000" />
-    </task>
-    <task id="LOCAL-00001" summary="feat (new project) add readme new project">
-      <option name="closed" value="true" />
-      <created>1736429250290</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1736429250290</updated>
+      <workItem from="1740102546641" duration="167000" />
+      <workItem from="1740182657228" duration="11000" />
     </task>
     <task id="LOCAL-00002" summary="feat (new exercise) add exercises of Stream Java new project StreamExample">
       <option name="closed" value="true" />
@@ -697,14 +690,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740006506707</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="feat (Service class) add ProductJpaRepository adapter.persistence to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1740102702077</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1740102702077</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (new day) add new Day files and readme.md for Day Seven" />
     <MESSAGE value="feat (new day) add new Day files and readme.md for Day eight" />
     <MESSAGE value="feat (tasks) add new tasks and readme.md for Day eight" />
     <MESSAGE value="doc (add doc) add new doc for new project ecommerce-api" />
@@ -729,7 +729,8 @@
     <MESSAGE value="feat (Repository interface) add UserRepository domain.repository to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add OrderDomainService domain.service to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add ProductController adapter.controller to project ecommerce-api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (Service class) add ProductController adapter.controller to project ecommerce-api" />
+    <MESSAGE value="feat (Service class) add ProductJpaRepository adapter.persistence to project ecommerce-api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (Service class) add ProductJpaRepository adapter.persistence to project ecommerce-api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
