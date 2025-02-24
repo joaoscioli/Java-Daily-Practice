@@ -1,7 +1,7 @@
 # E-commerce API
 
 ## Description
-This API provides basic functionalities for an e-commerce system, including user management, products, shopping cart, and orders. It uses **Spring Boot**, **Spring Data JPA**, **Hibernate**, and **JWT** for authentication.
+This API provides basic functionalities for an e-commerce system, including user management, products, shopping cart, and orders. It follows **Hexagonal Architecture (Ports and Adapters)** and uses **Spring Boot**, **Spring Data JPA**, **Hibernate**, and **JWT** for authentication.
 
 ## Technologies Used
 - Java 23+
@@ -13,13 +13,11 @@ This API provides basic functionalities for an e-commerce system, including user
 - Swagger for documentation
 
 ## Architecture
-This project follows a **Hexagonal Architecture (Ports and Adapters)** approach to separate business logic from external dependencies.
-
 ### **Layers**:
-- **Application Layer**: Contains use cases (services) and orchestrates the business logic.
-- **Domain Layer**: Contains core business logic and entities, following the **DDD (Domain-Driven Design)** principles.
-- **Infrastructure Layer**: Manages external dependencies such as databases, APIs, and security.
-- **Adapters**: Provide implementations for database access, external API integrations, and authentication.
+- **Application Layer**: Orchestrates business logic and provides services.
+- **Domain Layer**: Core business logic and entities, following **DDD (Domain-Driven Design)**.
+- **Infrastructure Layer**: Manages external dependencies (database, authentication, etc.).
+- **Adapters**: Implement interactions with external systems (API, persistence, security).
 
 ### **Component Interaction**
 ```mermaid
@@ -29,7 +27,6 @@ graph TD;
   Repository -->|Connects| Database;
   Service -->|Uses| ExternalAPI;
 ```
-This structure ensures a clean separation of concerns, making the system scalable and maintainable.
 
 ## Requirements
 - JDK 23+
@@ -37,13 +34,11 @@ This structure ensures a clean separation of concerns, making the system scalabl
 - PostgreSQL/MySQL Database
 
 ## Installation
-
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/ecommerce-api.git
    cd ecommerce-api
    ```
-
 2. Configure **application.properties** or **application.yml**:
    ```properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
@@ -51,7 +46,6 @@ This structure ensures a clean separation of concerns, making the system scalabl
    spring.datasource.password=your-password
    spring.jpa.hibernate.ddl-auto=update
    ```
-
 3. Build and run the project:
    ```sh
    mvn clean install
@@ -65,7 +59,6 @@ http://localhost:8080/swagger-ui/index.html
 ```
 
 ### Main Endpoints
-
 #### **Authentication**
 - `POST /auth/register` - Register a user
 - `POST /auth/login` - Login and generate JWT token
@@ -106,3 +99,4 @@ Contributions are welcome! To suggest improvements:
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
