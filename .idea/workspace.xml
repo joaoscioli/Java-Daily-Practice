@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat (Service class) add UserService domain.service to project ecommerce-api">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="docs (add doc) add documentation to project ecommerce-api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -251,8 +251,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-e9a9b764149b-intellij.indexing.shared.core-IU-251.21418.62" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a163169533b-JavaScript-IU-251.21418.62" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.59" />
       </set>
     </attachedChunks>
   </component>
@@ -306,15 +306,10 @@
       <workItem from="1740102546641" duration="167000" />
       <workItem from="1740182657228" duration="118000" />
       <workItem from="1740262335539" duration="354000" />
-      <workItem from="1740358728495" duration="8000" />
-    </task>
-    <task id="LOCAL-00004" summary="feat (new exercise) add exercise of SpringBoot API  project demoApi">
-      <option name="closed" value="true" />
-      <created>1736469182011</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1736469182011</updated>
+      <workItem from="1740358728495" duration="179000" />
+      <workItem from="1741042269839" duration="3000" />
+      <workItem from="1742601372574" duration="23000" />
+      <workItem from="1746448754285" duration="626000" />
     </task>
     <task id="LOCAL-00005" summary="feat (new exercise) add exercise of Leetcode API  project array">
       <option name="closed" value="true" />
@@ -700,14 +695,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740262682600</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="docs (add doc) add documentation to project ecommerce-api">
+      <option name="closed" value="true" />
+      <created>1740358897551</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1740358897551</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="doc (add doc) add new doc for new project ecommerce-api" />
     <MESSAGE value="doc (update doc) update readme doc for project ecommerce-api" />
     <MESSAGE value="feat (created layers) created layers for project ecommerce-api" />
     <MESSAGE value="feat (new dependency) add dependency lombok for project ecommerce-api" />
@@ -732,7 +734,8 @@
     <MESSAGE value="feat (Service class) add ProductJpaRepository adapter.persistence to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add SecurityConfig adapter.security to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add UserService domain.service to project ecommerce-api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat (Service class) add UserService domain.service to project ecommerce-api" />
+    <MESSAGE value="docs (add doc) add documentation to project ecommerce-api" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs (add doc) add documentation to project ecommerce-api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
