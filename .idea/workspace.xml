@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day One) final project Day 01">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-02/src/StructuredTaskScopeTest.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day Two) final project Day 02">
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/RetryExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +77,7 @@
     "Application.CustomSortingExample.executor": "Run",
     "Application.HttpClientTest.executor": "Run",
     "Application.LambdaExample.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.ParallelStreamExample.executor": "Run",
     "Application.StreamExample.executor": "Run",
     "Application.StructuredConcurrency.executor": "Run",
@@ -114,6 +115,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice/semana-01/dia-02/dia-03/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -316,15 +318,7 @@
       <workItem from="1746577638364" duration="861000" />
       <workItem from="1746632764159" duration="7224000" />
       <workItem from="1746835176194" duration="1575000" />
-      <workItem from="1746878262480" duration="2724000" />
-    </task>
-    <task id="LOCAL-00010" summary="feat (new project) add task main Day Three">
-      <option name="closed" value="true" />
-      <created>1736700844688</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1736700844688</updated>
+      <workItem from="1746878262480" duration="5156000" />
     </task>
     <task id="LOCAL-00011" summary="feat (new project) add Task 2: Database Setup (PostgreSQL) main Day Three">
       <option name="closed" value="true" />
@@ -710,14 +704,21 @@
       <option name="project" value="LOCAL" />
       <updated>1746836463120</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="feat(day Two) final project Day 02">
+      <option name="closed" value="true" />
+      <created>1746881427448</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1746881427448</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (package application) add code classes for package mapper to project ecommerce-api" />
     <MESSAGE value="feat (package infrastructure) add packages and subpackages infrastructure to project ecommerce-api" />
     <MESSAGE value="feat (package infrastructure) add classes and repository to project ecommerce-api" />
     <MESSAGE value="fix (fixes bug security) fix bug SecurityConfig class remove csfr to project ecommerce-api" />
@@ -742,7 +743,8 @@
     <MESSAGE value="Remove project files and configurations; add concurrency example&#10;&#10;Deleted various project files, configuration settings, and dependencies, effectively resetting the repository state. Also added a new `StructuredConcurrencyExample.java` to demonstrate structured concurrency in Java." />
     <MESSAGE value="feat(day One) part 01 - Criar um servidor HTTP com virtual threads para processar 10.000 requisições simultâneas, usando java.net.http" />
     <MESSAGE value="feat(day One) final project Day 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(day One) final project Day 01" />
+    <MESSAGE value="feat(day Two) final project Day 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(day Two) final project Day 02" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

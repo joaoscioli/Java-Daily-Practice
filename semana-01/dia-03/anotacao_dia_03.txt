@@ -1,0 +1,3 @@
+
+Leituras:
+https://devgo-tech.medium.com/padr%C3%B5es-de-projeto-de-resili%C3%AAncia-retry-fallback-timeout-circuit-breaker-30d29fd6f031
