@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="Remove project files and configurations; add concurrency example&#10;&#10;Deleted various project files, configuration settings, and dependencies, effectively resetting the repository state. Also added a new `StructuredConcurrencyExample.java` to demonstrate structured concurrency in Java.">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-01/src/VirtualThreadHttpServer.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day One) part 01 - Criar um servidor HTTP com virtual threads para processar 10.000 requisições simultâneas, usando java.net.http">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semana-01/dia-01/src/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/semana-01/dia-01/src/HttpClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,9 +145,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VirtualThreadExample">
+  <component name="RunManager" selected="Application.HttpClientTest">
+    <configuration name="HttpClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HttpClientTest" />
+      <module name="dia-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VirtualThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VirtualThreadExample" />
+      <module name="dia-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VirtualThreadHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VirtualThreadHttpServer" />
       <module name="dia-01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,37 +170,6 @@
     <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello" />
       <module name="dia-01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestApiProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.restapiproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.restapiproject" />
-      <option name="MAIN_CLASS_NAME" value="org.example.restapiproject.StudentControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentControllerTest.shouldReturnAllStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestApiProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.restapiproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.restapiproject" />
-      <option name="MAIN_CLASS_NAME" value="org.example.restapiproject.StudentControllerTest" />
-      <option name="METHOD_NAME" value="shouldReturnAllStudent" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -263,19 +246,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpClientTest" />
+        <item itemvalue="Application.VirtualThreadHttpServer" />
         <item itemvalue="Application.VirtualThreadExample" />
         <item itemvalue="Application.hello" />
         <item itemvalue="JUnit.StudentRepositoryTest" />
-        <item itemvalue="JUnit.StudentControllerTest.shouldReturnAllStudent" />
-        <item itemvalue="JUnit.StudentControllerTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -335,15 +318,8 @@
       <workItem from="1746448754285" duration="1542000" />
       <workItem from="1746531913435" duration="7633000" />
       <workItem from="1746577638364" duration="861000" />
-      <workItem from="1746632764159" duration="5774000" />
-    </task>
-    <task id="LOCAL-00008" summary="feat (new day) add Day three">
-      <option name="closed" value="true" />
-      <created>1736634092526</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1736634092526</updated>
+      <workItem from="1746632764159" duration="7224000" />
+      <workItem from="1746835176194" duration="947000" />
     </task>
     <task id="LOCAL-00009" summary="feat (new project) add readme Day Three">
       <option name="closed" value="true" />
@@ -729,14 +705,21 @@
       <option name="project" value="LOCAL" />
       <updated>1746578500773</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="feat(day One) part 01 - Criar um servidor HTTP com virtual threads para processar 10.000 requisições simultâneas, usando java.net.http">
+      <option name="closed" value="true" />
+      <created>1746639312643</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1746639312643</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (product class) implement class and interface of product for project ecommerce-api" />
     <MESSAGE value="feat (package application) add package application and classes and subpackages for project ecommerce-api" />
     <MESSAGE value="feat (package application) add code classes for package mapper to project ecommerce-api" />
     <MESSAGE value="feat (package infrastructure) add packages and subpackages infrastructure to project ecommerce-api" />
@@ -761,7 +744,8 @@
     <MESSAGE value="docs: update README with" />
     <MESSAGE value="Remove all project files and internal configurations.&#10;&#10;Deleted source files, configuration files, and dependencies across multiple projects. This effectively cleans up the project structure and resets all progress for the listed directories." />
     <MESSAGE value="Remove project files and configurations; add concurrency example&#10;&#10;Deleted various project files, configuration settings, and dependencies, effectively resetting the repository state. Also added a new `StructuredConcurrencyExample.java` to demonstrate structured concurrency in Java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove project files and configurations; add concurrency example&#10;&#10;Deleted various project files, configuration settings, and dependencies, effectively resetting the repository state. Also added a new `StructuredConcurrencyExample.java` to demonstrate structured concurrency in Java." />
+    <MESSAGE value="feat(day One) part 01 - Criar um servidor HTTP com virtual threads para processar 10.000 requisições simultâneas, usando java.net.http" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(day One) part 01 - Criar um servidor HTTP com virtual threads para processar 10.000 requisições simultâneas, usando java.net.http" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
