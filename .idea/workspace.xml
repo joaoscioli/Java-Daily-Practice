@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day Two) final project Day 02">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/RetryExample.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="Add RetryExample and day 03 configuration files&#10;&#10;Introduced a `RetryExample` class demonstrating a retry mechanism with CompletableFuture. Configurations and annotations for day 03 were added, including module settings and a reference to resilience design patterns for further reading.">
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/CircuitBreakerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semana-01/dia-03/dia-03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/semana-01/dia-03/dia-03.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +24,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="JwtAuthenticationProject" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -74,6 +70,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.CircuitBreakerExample.executor": "Run",
     "Application.CustomSortingExample.executor": "Run",
     "Application.HttpClientTest.executor": "Run",
     "Application.LambdaExample.executor": "Run",
@@ -88,6 +85,8 @@
     "Application.hello.executor": "Run",
     "Docker.RestApiProject.postgres: Compose Deployment.executor": "Run",
     "Docker.RestApiProject: Compose Deployment.executor": "Run",
+    "Downloaded.Files.Path": "C:\\Users\\joaos\\Git_JoaoScioli\\Java-Daily-Practice\\resilience4j-master",
+    "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Build JwtAuthenticationProject.executor": "Run",
     "JUnit.StudentControllerTest.executor": "Run",
     "JUnit.StudentControllerTest.shouldReturnAllStudent.executor": "Run",
@@ -95,6 +94,9 @@
     "Maven.RestApiProject [clean].executor": "Run",
     "Maven.RestApiProject [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
     "Maven.RestApiProject [verify].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -137,6 +139,7 @@
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-03" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Testes" />
     </key>
@@ -151,7 +154,15 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CircuitBreakerExample">
+    <configuration name="CircuitBreakerExample" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
+      <option name="MAIN_CLASS_NAME" value="CircuitBreakerExample" />
+      <module name="dia-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HttpClientTest" />
       <module name="dia-01" />
@@ -169,13 +180,6 @@
     <configuration name="StructuredTaskScopeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuredTaskScopeTest" />
       <module name="dia-02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VirtualThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VirtualThreadExample" />
-      <module name="dia-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,13 +246,23 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.CircuitBreakerExample" />
+      <item itemvalue="Application.HttpClientTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.StructuredTaskScopeTest" />
+      <item itemvalue="Application.VirtualThreadHttpServer" />
+      <item itemvalue="Spring Boot.DemoApiApplication" />
+      <item itemvalue="Spring Boot.EcommerceApiApplication" />
+      <item itemvalue="Spring Boot.RestApiProjectApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircuitBreakerExample" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StructuredTaskScopeTest" />
         <item itemvalue="Application.HttpClientTest" />
         <item itemvalue="Application.VirtualThreadHttpServer" />
-        <item itemvalue="Application.VirtualThreadExample" />
       </list>
     </recent_temporary>
   </component>
@@ -318,15 +332,8 @@
       <workItem from="1746577638364" duration="861000" />
       <workItem from="1746632764159" duration="7224000" />
       <workItem from="1746835176194" duration="1575000" />
-      <workItem from="1746878262480" duration="5156000" />
-    </task>
-    <task id="LOCAL-00011" summary="feat (new project) add Task 2: Database Setup (PostgreSQL) main Day Three">
-      <option name="closed" value="true" />
-      <created>1736788762365</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1736788762365</updated>
+      <workItem from="1746878262480" duration="5448000" />
+      <workItem from="1747084453174" duration="2281000" />
     </task>
     <task id="LOCAL-00012" summary="feat (new project) add Day Four">
       <option name="closed" value="true" />
@@ -712,14 +719,21 @@
       <option name="project" value="LOCAL" />
       <updated>1746881427448</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Add RetryExample and day 03 configuration files&#10;&#10;Introduced a `RetryExample` class demonstrating a retry mechanism with CompletableFuture. Configurations and annotations for day 03 were added, including module settings and a reference to resilience design patterns for further reading.">
+      <option name="closed" value="true" />
+      <created>1746915039291</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1746915039291</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (package infrastructure) add packages and subpackages infrastructure to project ecommerce-api" />
     <MESSAGE value="feat (package infrastructure) add classes and repository to project ecommerce-api" />
     <MESSAGE value="fix (fixes bug security) fix bug SecurityConfig class remove csfr to project ecommerce-api" />
     <MESSAGE value="feat (new packages) add package adapter and sub packages to project ecommerce-api" />
@@ -744,7 +758,8 @@
     <MESSAGE value="feat(day One) part 01 - Criar um servidor HTTP com virtual threads para processar 10.000 requisições simultâneas, usando java.net.http" />
     <MESSAGE value="feat(day One) final project Day 01" />
     <MESSAGE value="feat(day Two) final project Day 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(day Two) final project Day 02" />
+    <MESSAGE value="Add RetryExample and day 03 configuration files&#10;&#10;Introduced a `RetryExample` class demonstrating a retry mechanism with CompletableFuture. Configurations and annotations for day 03 were added, including module settings and a reference to resilience design patterns for further reading." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add RetryExample and day 03 configuration files&#10;&#10;Introduced a `RetryExample` class demonstrating a retry mechanism with CompletableFuture. Configurations and annotations for day 03 were added, including module settings and a reference to resilience design patterns for further reading." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
