@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="Add RetryExample and day 03 configuration files&#10;&#10;Introduced a `RetryExample` class demonstrating a retry mechanism with CompletableFuture. Configurations and annotations for day 03 were added, including module settings and a reference to resilience design patterns for further reading.">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/CircuitBreakerExample.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="Add CircuitBreakerExample and update day 03 configs&#10;&#10;Introduced a `CircuitBreakerExample` class utilizing Resilience4j to demonstrate circuit breaker functionality. Updated day 03 module configuration with relevant Resilience4j dependencies and project annotations. Enhanced development setup for improved fault tolerance exploration.">
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/CircuitBreakerRetry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/RetryExampleTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana-01/dia-03/dia-03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/semana-01/dia-03/dia-03.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,15 +333,7 @@
       <workItem from="1746632764159" duration="7224000" />
       <workItem from="1746835176194" duration="1575000" />
       <workItem from="1746878262480" duration="5448000" />
-      <workItem from="1747084453174" duration="2281000" />
-    </task>
-    <task id="LOCAL-00012" summary="feat (new project) add Day Four">
-      <option name="closed" value="true" />
-      <created>1736788814341</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1736788814341</updated>
+      <workItem from="1747084453174" duration="3785000" />
     </task>
     <task id="LOCAL-00013" summary="feat (new project) add main task and readme.md to Day Four">
       <option name="closed" value="true" />
@@ -727,14 +719,21 @@
       <option name="project" value="LOCAL" />
       <updated>1746915039291</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Add CircuitBreakerExample and update day 03 configs&#10;&#10;Introduced a `CircuitBreakerExample` class utilizing Resilience4j to demonstrate circuit breaker functionality. Updated day 03 module configuration with relevant Resilience4j dependencies and project annotations. Enhanced development setup for improved fault tolerance exploration.">
+      <option name="closed" value="true" />
+      <created>1747088865908</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1747088865909</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (package infrastructure) add classes and repository to project ecommerce-api" />
     <MESSAGE value="fix (fixes bug security) fix bug SecurityConfig class remove csfr to project ecommerce-api" />
     <MESSAGE value="feat (new packages) add package adapter and sub packages to project ecommerce-api" />
     <MESSAGE value="feat (add ProductController) add class ProductController to project ecommerce-api" />
@@ -759,7 +758,8 @@
     <MESSAGE value="feat(day One) final project Day 01" />
     <MESSAGE value="feat(day Two) final project Day 02" />
     <MESSAGE value="Add RetryExample and day 03 configuration files&#10;&#10;Introduced a `RetryExample` class demonstrating a retry mechanism with CompletableFuture. Configurations and annotations for day 03 were added, including module settings and a reference to resilience design patterns for further reading." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add RetryExample and day 03 configuration files&#10;&#10;Introduced a `RetryExample` class demonstrating a retry mechanism with CompletableFuture. Configurations and annotations for day 03 were added, including module settings and a reference to resilience design patterns for further reading." />
+    <MESSAGE value="Add CircuitBreakerExample and update day 03 configs&#10;&#10;Introduced a `CircuitBreakerExample` class utilizing Resilience4j to demonstrate circuit breaker functionality. Updated day 03 module configuration with relevant Resilience4j dependencies and project annotations. Enhanced development setup for improved fault tolerance exploration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CircuitBreakerExample and update day 03 configs&#10;&#10;Introduced a `CircuitBreakerExample` class utilizing Resilience4j to demonstrate circuit breaker functionality. Updated day 03 module configuration with relevant Resilience4j dependencies and project annotations. Enhanced development setup for improved fault tolerance exploration." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
