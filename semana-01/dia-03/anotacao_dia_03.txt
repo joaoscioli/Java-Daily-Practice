@@ -1,3 +1,4 @@
 
 Leituras:
 https://devgo-tech.medium.com/padr%C3%B5es-de-projeto-de-resili%C3%AAncia-retry-fallback-timeout-circuit-breaker-30d29fd6f031
+https://vitormoschetti.medium.com/desvendando-completablefuture-como-ele-funciona-e-quando-us%C3%A1-lo-b10b7f14a722

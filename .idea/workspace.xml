@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="Add RetryExampleThree to demonstrate retry mechanism&#10;&#10;Introduced `RetryExampleThree` class utilizing Resilience4j to implement a retry mechanism with custom configurations. This enhances fault tolerance handling by showcasing automated retries for transient failures. Associated project files and settings were also updated to reflect these changes.">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/CircuitBreakerExampleTwo.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="Add CircuitBreakerExampleTwo to demonstrate fault tolerance&#10;&#10;Introduced `CircuitBreakerExampleTwo` class using Resilience4j to showcase circuit breaker and retry mechanisms with custom configurations. This example enhances understanding of handling transient failures through automated retries and circuit breaking. Associated project files were updated for consistency.">
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/ProjectCircuitBreakerRetry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semana-01/dia-03/anotacao_dia_03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/semana-01/dia-03/anotacao_dia_03.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,15 +335,8 @@
       <workItem from="1746835176194" duration="1575000" />
       <workItem from="1746878262480" duration="5448000" />
       <workItem from="1747084453174" duration="4652000" />
-      <workItem from="1747135393500" duration="1294000" />
-    </task>
-    <task id="LOCAL-00015" summary="fix (jwt authenticate) fix second task for Day Four">
-      <option name="closed" value="true" />
-      <created>1736951135151</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1736951135151</updated>
+      <workItem from="1747135393500" duration="5646000" />
+      <workItem from="1747170850520" duration="2466000" />
     </task>
     <task id="LOCAL-00016" summary="feat (day five) add new Day Five">
       <option name="closed" value="true" />
@@ -728,14 +722,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747135954240</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Add CircuitBreakerExampleTwo to demonstrate fault tolerance&#10;&#10;Introduced `CircuitBreakerExampleTwo` class using Resilience4j to showcase circuit breaker and retry mechanisms with custom configurations. This example enhances understanding of handling transient failures through automated retries and circuit breaking. Associated project files were updated for consistency.">
+      <option name="closed" value="true" />
+      <created>1747136924495</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1747136924495</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (add ProductController) add class ProductController to project ecommerce-api" />
     <MESSAGE value="doc (doc) add doc class ProductController to project ecommerce-api" />
     <MESSAGE value="feat (Order class) add Order class domain.model to project ecommerce-api" />
     <MESSAGE value="feat (Cart class) add Cart class domain.model to project ecommerce-api" />
@@ -760,7 +761,8 @@
     <MESSAGE value="Add CircuitBreakerExample and update day 03 configs&#10;&#10;Introduced a `CircuitBreakerExample` class utilizing Resilience4j to demonstrate circuit breaker functionality. Updated day 03 module configuration with relevant Resilience4j dependencies and project annotations. Enhanced development setup for improved fault tolerance exploration." />
     <MESSAGE value="Add CircuitBreaker and Retry examples using Resilience4j  &#10;&#10;Introduced `CircuitBreakerRetry` and `RetryExampleTwo` classes to demonstrate fault tolerance with circuit breaker and retry mechanisms. Updated day 03 configurations to include Resilience4j dependencies for practical resilience pattern applications. Enhanced project for improved handling of transient failures." />
     <MESSAGE value="Add RetryExampleThree to demonstrate retry mechanism&#10;&#10;Introduced `RetryExampleThree` class utilizing Resilience4j to implement a retry mechanism with custom configurations. This enhances fault tolerance handling by showcasing automated retries for transient failures. Associated project files and settings were also updated to reflect these changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add RetryExampleThree to demonstrate retry mechanism&#10;&#10;Introduced `RetryExampleThree` class utilizing Resilience4j to implement a retry mechanism with custom configurations. This enhances fault tolerance handling by showcasing automated retries for transient failures. Associated project files and settings were also updated to reflect these changes." />
+    <MESSAGE value="Add CircuitBreakerExampleTwo to demonstrate fault tolerance&#10;&#10;Introduced `CircuitBreakerExampleTwo` class using Resilience4j to showcase circuit breaker and retry mechanisms with custom configurations. This example enhances understanding of handling transient failures through automated retries and circuit breaking. Associated project files were updated for consistency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CircuitBreakerExampleTwo to demonstrate fault tolerance&#10;&#10;Introduced `CircuitBreakerExampleTwo` class using Resilience4j to showcase circuit breaker and retry mechanisms with custom configurations. This example enhances understanding of handling transient failures through automated retries and circuit breaking. Associated project files were updated for consistency." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
