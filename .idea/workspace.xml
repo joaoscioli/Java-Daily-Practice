@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="Add CircuitBreaker and Retry examples using Resilience4j  &#10;&#10;Introduced `CircuitBreakerRetry` and `RetryExampleTwo` classes to demonstrate fault tolerance with circuit breaker and retry mechanisms. Updated day 03 configurations to include Resilience4j dependencies for practical resilience pattern applications. Enhanced project for improved handling of transient failures.">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/RetryExampleThree.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="Add RetryExampleThree to demonstrate retry mechanism&#10;&#10;Introduced `RetryExampleThree` class utilizing Resilience4j to implement a retry mechanism with custom configurations. This enhances fault tolerance handling by showcasing automated retries for transient failures. Associated project files and settings were also updated to reflect these changes.">
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-03/src/CircuitBreakerExampleTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -334,15 +334,7 @@
       <workItem from="1746835176194" duration="1575000" />
       <workItem from="1746878262480" duration="5448000" />
       <workItem from="1747084453174" duration="4652000" />
-      <workItem from="1747135393500" duration="301000" />
-    </task>
-    <task id="LOCAL-00014" summary="feat (new project) add second task for Day Four">
-      <option name="closed" value="true" />
-      <created>1736874362110</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1736874362110</updated>
+      <workItem from="1747135393500" duration="1294000" />
     </task>
     <task id="LOCAL-00015" summary="fix (jwt authenticate) fix second task for Day Four">
       <option name="closed" value="true" />
@@ -728,14 +720,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747090589010</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Add RetryExampleThree to demonstrate retry mechanism&#10;&#10;Introduced `RetryExampleThree` class utilizing Resilience4j to implement a retry mechanism with custom configurations. This enhances fault tolerance handling by showcasing automated retries for transient failures. Associated project files and settings were also updated to reflect these changes.">
+      <option name="closed" value="true" />
+      <created>1747135954239</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1747135954240</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (new packages) add package adapter and sub packages to project ecommerce-api" />
     <MESSAGE value="feat (add ProductController) add class ProductController to project ecommerce-api" />
     <MESSAGE value="doc (doc) add doc class ProductController to project ecommerce-api" />
     <MESSAGE value="feat (Order class) add Order class domain.model to project ecommerce-api" />
@@ -760,7 +759,8 @@
     <MESSAGE value="Add RetryExample and day 03 configuration files&#10;&#10;Introduced a `RetryExample` class demonstrating a retry mechanism with CompletableFuture. Configurations and annotations for day 03 were added, including module settings and a reference to resilience design patterns for further reading." />
     <MESSAGE value="Add CircuitBreakerExample and update day 03 configs&#10;&#10;Introduced a `CircuitBreakerExample` class utilizing Resilience4j to demonstrate circuit breaker functionality. Updated day 03 module configuration with relevant Resilience4j dependencies and project annotations. Enhanced development setup for improved fault tolerance exploration." />
     <MESSAGE value="Add CircuitBreaker and Retry examples using Resilience4j  &#10;&#10;Introduced `CircuitBreakerRetry` and `RetryExampleTwo` classes to demonstrate fault tolerance with circuit breaker and retry mechanisms. Updated day 03 configurations to include Resilience4j dependencies for practical resilience pattern applications. Enhanced project for improved handling of transient failures." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add CircuitBreaker and Retry examples using Resilience4j  &#10;&#10;Introduced `CircuitBreakerRetry` and `RetryExampleTwo` classes to demonstrate fault tolerance with circuit breaker and retry mechanisms. Updated day 03 configurations to include Resilience4j dependencies for practical resilience pattern applications. Enhanced project for improved handling of transient failures." />
+    <MESSAGE value="Add RetryExampleThree to demonstrate retry mechanism&#10;&#10;Introduced `RetryExampleThree` class utilizing Resilience4j to implement a retry mechanism with custom configurations. This enhances fault tolerance handling by showcasing automated retries for transient failures. Associated project files and settings were also updated to reflect these changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add RetryExampleThree to demonstrate retry mechanism&#10;&#10;Introduced `RetryExampleThree` class utilizing Resilience4j to implement a retry mechanism with custom configurations. This enhances fault tolerance handling by showcasing automated retries for transient failures. Associated project files and settings were also updated to reflect these changes." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
