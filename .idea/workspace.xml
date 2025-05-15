@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(project day 04) finish project day 04, use ScopedValue and VirtualThread">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-05/src/CrawlerExampleOne.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="Add CrawlerExampleOne to scrape webpage content&#10;&#10;Introduced `CrawlerExampleOne` in `dia-05` to demonstrate basic web scraping using Jsoup. Updated project configuration and replaced references to previous examples with the new class. This finalizes enhancements for day 05.">
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-05/src/ApiCrawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,72 +67,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Application.CircuitBreakerExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomSortingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HttpClientTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParallelStreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StructuredConcurrency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StructuredTaskScopeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VirtualThreadExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VirtualThreadExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VirtualThreadHttpServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.hello.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.RestApiProject.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.RestApiProject: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path&quot;: &quot;C:\\Users\\joaos\\Git_JoaoScioli\\Java-Daily-Practice\\resilience4j-master&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Build JwtAuthenticationProject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentControllerTest.shouldReturnAllStudent.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RestApiProject [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RestApiProject [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RestApiProject [verify].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\joaos\\AppData\\Roaming\\JetBrains\\IntelliJIdea2024.3\\plugins\\Shell Script\\shellcheck.exe&quot;,
-    &quot;Shell Script.gradlew.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.DemoApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EcommerceApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.JwtAuthenticationProjectApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.RestApiProjectApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice/semana-01/dia-02/dia-03/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.CircuitBreakerExample.executor": "Run",
+    "Application.CrawlerExampleOne.executor": "Run",
+    "Application.CustomSortingExample.executor": "Run",
+    "Application.HttpClientTest.executor": "Run",
+    "Application.LambdaExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ParallelStreamExample.executor": "Run",
+    "Application.StreamExample.executor": "Run",
+    "Application.StructuredConcurrency.executor": "Run",
+    "Application.StructuredTaskScopeTest.executor": "Run",
+    "Application.TestHashMap.executor": "Run",
+    "Application.VirtualThreadExample.executor": "Run",
+    "Application.VirtualThreadExampleTwo.executor": "Run",
+    "Application.VirtualThreadHttpServer.executor": "Run",
+    "Application.hello.executor": "Run",
+    "Docker.RestApiProject.postgres: Compose Deployment.executor": "Run",
+    "Docker.RestApiProject: Compose Deployment.executor": "Run",
+    "Downloaded.Files.Path": "C:\\Users\\joaos\\Git_JoaoScioli\\Java-Daily-Practice\\resilience4j-master",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build JwtAuthenticationProject.executor": "Run",
+    "JUnit.StudentControllerTest.executor": "Run",
+    "JUnit.StudentControllerTest.shouldReturnAllStudent.executor": "Run",
+    "JUnit.StudentRepositoryTest.executor": "Run",
+    "Maven.RestApiProject [clean].executor": "Run",
+    "Maven.RestApiProject [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
+    "Maven.RestApiProject [verify].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\joaos\\AppData\\Roaming\\JetBrains\\IntelliJIdea2024.3\\plugins\\Shell Script\\shellcheck.exe",
+    "Shell Script.gradlew.executor": "Run",
+    "Spring Boot.DemoApiApplication.executor": "Run",
+    "Spring Boot.EcommerceApiApplication.executor": "Run",
+    "Spring Boot.JwtAuthenticationProjectApplication.executor": "Run",
+    "Spring Boot.RestApiProjectApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice/semana-01/dia-02/dia-03/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice" />
@@ -157,7 +158,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CrawlerExampleOne">
+  <component name="RunManager" selected="Application.ApiCrawler">
+    <configuration name="ApiCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApiCrawler" />
+      <module name="dia-05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CircuitBreakerExample" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
       <option name="MAIN_CLASS_NAME" value="CircuitBreakerExample" />
@@ -175,13 +183,6 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="dia-02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StructuredTaskScopeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuredTaskScopeTest" />
       <module name="dia-02" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -250,22 +251,22 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.ApiCrawler" />
       <item itemvalue="Application.CrawlerExampleOne" />
       <item itemvalue="Application.VirtualThreadExampleTwo" />
       <item itemvalue="Application.CircuitBreakerExample" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.StructuredTaskScopeTest" />
       <item itemvalue="Spring Boot.DemoApiApplication" />
       <item itemvalue="Spring Boot.EcommerceApiApplication" />
       <item itemvalue="Spring Boot.RestApiProjectApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApiCrawler" />
         <item itemvalue="Application.CrawlerExampleOne" />
         <item itemvalue="Application.VirtualThreadExampleTwo" />
         <item itemvalue="Application.CircuitBreakerExample" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StructuredTaskScopeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -340,15 +341,7 @@
       <workItem from="1747135393500" duration="5646000" />
       <workItem from="1747170850520" duration="3032000" />
       <workItem from="1747256976887" duration="4055000" />
-      <workItem from="1747310098839" duration="657000" />
-    </task>
-    <task id="LOCAL-00020" summary="doc (add readme) add readme for Day Six">
-      <option name="closed" value="true" />
-      <created>1737329037499</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1737329037499</updated>
+      <workItem from="1747310098839" duration="1338000" />
     </task>
     <task id="LOCAL-00021" summary="fix (swagger api access) fix access Swagger Config for Day Six">
       <option name="closed" value="true" />
@@ -734,14 +727,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747261632402</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Add CrawlerExampleOne to scrape webpage content&#10;&#10;Introduced `CrawlerExampleOne` in `dia-05` to demonstrate basic web scraping using Jsoup. Updated project configuration and replaced references to previous examples with the new class. This finalizes enhancements for day 05.">
+      <option name="closed" value="true" />
+      <created>1747311040234</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1747311040234</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (Role class) add Role class domain.model to project ecommerce-api" />
     <MESSAGE value="feat (Repository interface) add OrderRepository domain.repository to project ecommerce-api" />
     <MESSAGE value="feat (Repository interface) add CartRepository domain.repository to project ecommerce-api" />
     <MESSAGE value="feat (Repository interface) add UserRepository domain.repository to project ecommerce-api" />
@@ -766,7 +766,8 @@
     <MESSAGE value="feat: add ScopedValue example and User record&#10;&#10;Introduced `ScopeValueExampleOne` class to demonstrate the use of scoped values in Java, providing a practical example with the `User` record. Updated project files to include new implementations for day 04." />
     <MESSAGE value="feat: add VirtualThread examples for day 04&#10;&#10;Introduced `VirtualThreadExampleOne` and `VirtualThreadExampleTwo` to demonstrate the usage of virtual threads in Java. These examples illustrate creating and managing virtual threads for concurrency. Updated workspace and project configurations accordingly." />
     <MESSAGE value="feat(project day 04) finish project day 04, use ScopedValue and VirtualThread" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(project day 04) finish project day 04, use ScopedValue and VirtualThread" />
+    <MESSAGE value="Add CrawlerExampleOne to scrape webpage content&#10;&#10;Introduced `CrawlerExampleOne` in `dia-05` to demonstrate basic web scraping using Jsoup. Updated project configuration and replaced references to previous examples with the new class. This finalizes enhancements for day 05." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CrawlerExampleOne to scrape webpage content&#10;&#10;Introduced `CrawlerExampleOne` in `dia-05` to demonstrate basic web scraping using Jsoup. Updated project configuration and replaced references to previous examples with the new class. This finalizes enhancements for day 05." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
