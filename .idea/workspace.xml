@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat: add ThreadSleeperTest for race condition testing&#10;&#10;Introduced `ThreadSleeperTest` in `dia-06` to demonstrate race condition scenarios using atomic operations. Updated project configurations to include the new test class.">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-06/src/ThreadCountLacthTest.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat: add ThreadCountLacthTest for concurrency testing&#10;&#10;Introduced `ThreadCountLacthTest` in `dia-06` to demonstrate the usage of `CountDownLatch` for synchronizing threads. Updated project configurations to include the new test class.">
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-06/src/ThreadPerformanceJMH.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,16 +162,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThreadCountLacthTest.testCountDownLatch">
+  <component name="RunManager" selected="JUnit.ThreadPerformanceJMH.testConcurrentPerformance">
     <configuration name="ApiCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ApiCrawler" />
-      <module name="dia-05" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CrawlerExampleOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CrawlerExampleOne" />
       <module name="dia-05" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,6 +182,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ThreadCountLacthTest" />
       <option name="METHOD_NAME" value="testCountDownLatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPerformanceJMH.testConcurrentPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dia-06" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThreadPerformanceJMH" />
+      <option name="METHOD_NAME" value="testConcurrentPerformance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,9 +263,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.ApiCrawler" />
-      <item itemvalue="Application.CrawlerExampleOne" />
       <item itemvalue="Application.ProjectCrawlerWeb" />
       <item itemvalue="JUnit.ThreadCountLacthTest.testCountDownLatch" />
+      <item itemvalue="JUnit.ThreadPerformanceJMH.testConcurrentPerformance" />
       <item itemvalue="JUnit.ThreadSleeperTest" />
       <item itemvalue="Spring Boot.DemoApiApplication" />
       <item itemvalue="Spring Boot.EcommerceApiApplication" />
@@ -270,11 +273,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThreadPerformanceJMH.testConcurrentPerformance" />
         <item itemvalue="JUnit.ThreadCountLacthTest.testCountDownLatch" />
         <item itemvalue="JUnit.ThreadSleeperTest" />
         <item itemvalue="Application.ProjectCrawlerWeb" />
         <item itemvalue="Application.ApiCrawler" />
-        <item itemvalue="Application.CrawlerExampleOne" />
       </list>
     </recent_temporary>
   </component>
@@ -353,15 +356,7 @@
       <workItem from="1747346139554" duration="4529000" />
       <workItem from="1747596629249" duration="645000" />
       <workItem from="1747783179405" duration="52000" />
-      <workItem from="1747868610815" duration="307000" />
-    </task>
-    <task id="LOCAL-00025" summary="feat (new day) add new Day files and readme.md for Day Seven">
-      <option name="closed" value="true" />
-      <created>1737763888829</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1737763888829</updated>
+      <workItem from="1747868610815" duration="612000" />
     </task>
     <task id="LOCAL-00026" summary="feat (new day) add new Day files and readme.md for Day eight">
       <option name="closed" value="true" />
@@ -747,14 +742,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747597261387</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="feat: add ThreadCountLacthTest for concurrency testing&#10;&#10;Introduced `ThreadCountLacthTest` in `dia-06` to demonstrate the usage of `CountDownLatch` for synchronizing threads. Updated project configurations to include the new test class.">
+      <option name="closed" value="true" />
+      <created>1747868934222</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1747868934222</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat (Service class) add ProductController adapter.controller to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add ProductJpaRepository adapter.persistence to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add SecurityConfig adapter.security to project ecommerce-api" />
     <MESSAGE value="feat (Service class) add UserService domain.service to project ecommerce-api" />
@@ -779,7 +781,8 @@
     <MESSAGE value="Add HTTP client examples for API interaction and web crawling&#10;&#10;Introduced `HttpClientAsyncExample`, `HttpClientEx`, and `ProjectCrawlerWeb` in `dia-05` to demonstrate asynchronous and synchronous HTTP client usage, as well as basic web crawling. Updated project configuration files accordingly to include the new classes." />
     <MESSAGE value="feat (final project) final project day 05 crawler web with Virtual Thread" />
     <MESSAGE value="feat: add ThreadSleeperTest for race condition testing&#10;&#10;Introduced `ThreadSleeperTest` in `dia-06` to demonstrate race condition scenarios using atomic operations. Updated project configurations to include the new test class." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add ThreadSleeperTest for race condition testing&#10;&#10;Introduced `ThreadSleeperTest` in `dia-06` to demonstrate race condition scenarios using atomic operations. Updated project configurations to include the new test class." />
+    <MESSAGE value="feat: add ThreadCountLacthTest for concurrency testing&#10;&#10;Introduced `ThreadCountLacthTest` in `dia-06` to demonstrate the usage of `CountDownLatch` for synchronizing threads. Updated project configurations to include the new test class." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add ThreadCountLacthTest for concurrency testing&#10;&#10;Introduced `ThreadCountLacthTest` in `dia-06` to demonstrate the usage of `CountDownLatch` for synchronizing threads. Updated project configurations to include the new test class." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
