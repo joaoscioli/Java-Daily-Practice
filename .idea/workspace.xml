@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day 05) project day 05 complete">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/dia-07.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day 07) add concurrency queue examples and update project configurations">
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/LinkedListQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,15 +366,7 @@
       <workItem from="1747596629249" duration="645000" />
       <workItem from="1747783179405" duration="52000" />
       <workItem from="1747868610815" duration="2628000" />
-      <workItem from="1748439967949" duration="5710000" />
-    </task>
-    <task id="LOCAL-00029" summary="doc (update doc) update readme doc for project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1738427569060</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1738427569060</updated>
+      <workItem from="1748439967949" duration="6018000" />
     </task>
     <task id="LOCAL-00030" summary="feat (created layers) created layers for project ecommerce-api">
       <option name="closed" value="true" />
@@ -760,14 +752,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748440039728</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="feat(day 07) add concurrency queue examples and update project configurations">
+      <option name="closed" value="true" />
+      <created>1748467975730</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1748467975730</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="docs (add doc) add documentation to project ecommerce-api" />
     <MESSAGE value="docs: update README with" />
     <MESSAGE value="Remove all project files and internal configurations.&#10;&#10;Deleted source files, configuration files, and dependencies across multiple projects. This effectively cleans up the project structure and resets all progress for the listed directories." />
     <MESSAGE value="Remove project files and configurations; add concurrency example&#10;&#10;Deleted various project files, configuration settings, and dependencies, effectively resetting the repository state. Also added a new `StructuredConcurrencyExample.java` to demonstrate structured concurrency in Java." />
@@ -792,7 +791,8 @@
     <MESSAGE value="feat: add ThreadPerformanceJMH for concurrent performance benchmarking&#10;&#10;Introduced `ThreadPerformanceJMH` in `dia-06` to benchmark concurrent performance using JMH. Updated project configurations and removed outdated test class references." />
     <MESSAGE value="feat: add ThreadStressTest for concurrency stress testing&#10;&#10;Introduced `ThreadStressTest` in `dia-06` to simulate high-load scenarios and validate thread safety using atomic operations. Updated project configurations to include the new test class." />
     <MESSAGE value="feat(day 05) project day 05 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(day 05) project day 05 complete" />
+    <MESSAGE value="feat(day 07) add concurrency queue examples and update project configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(day 07) add concurrency queue examples and update project configurations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
