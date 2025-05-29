@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day 07) add ConcurrentQueueExample for concurrency demonstrations">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/LinkedBlockingQueueExample.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day 07) add LinkedBlockingQueueExample for concurrency demonstrations">
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/ArrayBlockingQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/PriorityBlockingQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/PriorityQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/SynchronousQueueExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semana-01/dia-07/dia-07.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,93 +71,97 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Application.ApiCrawler.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CircuitBreakerExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CrawlerExampleOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomSortingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HttpClientTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParallelStreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProjectCrawlerWeb.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StructuredConcurrency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StructuredTaskScopeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VirtualThreadExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VirtualThreadExampleTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VirtualThreadHttpServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.hello.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.RestApiProject.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.RestApiProject: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path&quot;: &quot;C:\\Users\\joaos\\Git_JoaoScioli\\Java-Daily-Practice\\resilience4j-master&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Build JwtAuthenticationProject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProjectCounterServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentControllerTest.shouldReturnAllStudent.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ThreadCountLacthTest.testCountDownLatch.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ThreadPerformanceJMH.testConcurrentPerformance.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ThreadSleeperTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ThreadStressTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ThreadStressTest.testStress.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RestApiProject [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RestApiProject [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.RestApiProject [verify].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\joaos\\AppData\\Roaming\\JetBrains\\IntelliJIdea2024.3\\plugins\\Shell Script\\shellcheck.exe&quot;,
-    &quot;Shell Script.gradlew.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.DemoApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EcommerceApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.JwtAuthenticationProjectApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.RestApiProjectApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice/semana-01/dia-02/dia-03/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.ApiCrawler.executor": "Run",
+    "Application.CircuitBreakerExample.executor": "Run",
+    "Application.ConcurrentQueueExample.executor": "Run",
+    "Application.CrawlerExampleOne.executor": "Run",
+    "Application.CustomSortingExample.executor": "Run",
+    "Application.HttpClientTest.executor": "Run",
+    "Application.LambdaExample.executor": "Run",
+    "Application.LinkedBlockingQueueExample.executor": "Coverage",
+    "Application.Main.executor": "Run",
+    "Application.ParallelStreamExample.executor": "Run",
+    "Application.ProjectCrawlerWeb.executor": "Run",
+    "Application.StreamExample.executor": "Run",
+    "Application.StructuredConcurrency.executor": "Run",
+    "Application.StructuredTaskScopeTest.executor": "Run",
+    "Application.TestHashMap.executor": "Run",
+    "Application.VirtualThreadExample.executor": "Run",
+    "Application.VirtualThreadExampleTwo.executor": "Run",
+    "Application.VirtualThreadHttpServer.executor": "Run",
+    "Application.hello.executor": "Run",
+    "Docker.RestApiProject.postgres: Compose Deployment.executor": "Run",
+    "Docker.RestApiProject: Compose Deployment.executor": "Run",
+    "Downloaded.Files.Path": "C:\\Users\\joaos\\Git_JoaoScioli\\Java-Daily-Practice\\resilience4j-master",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build JwtAuthenticationProject.executor": "Run",
+    "JUnit.ProjectCounterServiceTest.executor": "Run",
+    "JUnit.StudentControllerTest.executor": "Run",
+    "JUnit.StudentControllerTest.shouldReturnAllStudent.executor": "Run",
+    "JUnit.StudentRepositoryTest.executor": "Run",
+    "JUnit.ThreadCountLacthTest.testCountDownLatch.executor": "Run",
+    "JUnit.ThreadPerformanceJMH.testConcurrentPerformance.executor": "Run",
+    "JUnit.ThreadSleeperTest.executor": "Run",
+    "JUnit.ThreadStressTest.executor": "Run",
+    "JUnit.ThreadStressTest.testStress.executor": "Run",
+    "Maven.RestApiProject [clean].executor": "Run",
+    "Maven.RestApiProject [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
+    "Maven.RestApiProject [verify].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\joaos\\AppData\\Roaming\\JetBrains\\IntelliJIdea2024.3\\plugins\\Shell Script\\shellcheck.exe",
+    "Shell Script.gradlew.executor": "Run",
+    "Spring Boot.DemoApiApplication.executor": "Run",
+    "Spring Boot.EcommerceApiApplication.executor": "Run",
+    "Spring Boot.JwtAuthenticationProjectApplication.executor": "Run",
+    "Spring Boot.RestApiProjectApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice/semana-01/dia-07",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/joaos/Git_JoaoScioli/Java-Daily-Practice/semana-01/dia-02/dia-03/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-07" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01\src" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-08\src" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-04\src" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-03\src" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-03" />
-      <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Testes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,51 +174,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProjectCounterServiceTest">
-    <configuration name="ProjectCounterServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dia-06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProjectCounterServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Application.LinkedBlockingQueueExample">
+    <configuration name="ConcurrentQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrentQueueExample" />
+      <module name="dia-07" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCountLacthTest.testCountDownLatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dia-06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreadCountLacthTest" />
-      <option name="METHOD_NAME" value="testCountDownLatch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPerformanceJMH.testConcurrentPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dia-06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreadPerformanceJMH" />
-      <option name="METHOD_NAME" value="testConcurrentPerformance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadStressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dia-06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreadStressTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadStressTest.testStress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dia-06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreadStressTest" />
-      <option name="METHOD_NAME" value="testStress" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="LinkedBlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedBlockingQueueExample" />
+      <module name="dia-07" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,27 +217,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="DemoApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="demoApi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.demoapi.DemoApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EcommerceApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ecommerce-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ecommerceapi.EcommerceApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestApiProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="RestApiProject" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.restapiproject.RestApiProjectApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -271,30 +224,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ProjectCounterServiceTest" />
-      <item itemvalue="JUnit.ThreadCountLacthTest.testCountDownLatch" />
-      <item itemvalue="JUnit.ThreadPerformanceJMH.testConcurrentPerformance" />
-      <item itemvalue="JUnit.ThreadStressTest" />
-      <item itemvalue="JUnit.ThreadStressTest.testStress" />
-      <item itemvalue="Spring Boot.DemoApiApplication" />
-      <item itemvalue="Spring Boot.EcommerceApiApplication" />
-      <item itemvalue="Spring Boot.RestApiProjectApplication" />
+      <item itemvalue="Application.ConcurrentQueueExample" />
+      <item itemvalue="Application.LinkedBlockingQueueExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProjectCounterServiceTest" />
-        <item itemvalue="JUnit.ThreadStressTest" />
-        <item itemvalue="JUnit.ThreadStressTest.testStress" />
-        <item itemvalue="JUnit.ThreadPerformanceJMH.testConcurrentPerformance" />
-        <item itemvalue="JUnit.ThreadCountLacthTest.testCountDownLatch" />
+        <item itemvalue="Application.LinkedBlockingQueueExample" />
+        <item itemvalue="Application.ConcurrentQueueExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-0db3c2423d63-intellij.indexing.shared.core-IU-252.16512.17" />
-        <option value="bundled-js-predefined-d6986cc7102b-cf89dd401a8c-JavaScript-IU-252.16512.17" />
+        <option value="bundled-jdk-9823dce3aa75-60c2bc820a0d-intellij.indexing.shared.core-IU-252.18003.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-d8cef83ef014-JavaScript-IU-252.18003.27" />
       </set>
     </attachedChunks>
   </component>
@@ -366,15 +310,8 @@
       <workItem from="1747596629249" duration="645000" />
       <workItem from="1747783179405" duration="52000" />
       <workItem from="1747868610815" duration="2628000" />
-      <workItem from="1748439967949" duration="8046000" />
-    </task>
-    <task id="LOCAL-00032" summary="feat (product class) implement class and interface of product for project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1738708577998</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1738708577998</updated>
+      <workItem from="1748439967949" duration="8278000" />
+      <workItem from="1748522232635" duration="1941000" />
     </task>
     <task id="LOCAL-00033" summary="feat (package application) add package application and classes and subpackages for project ecommerce-api">
       <option name="closed" value="true" />
@@ -760,14 +697,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748468790526</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="feat(day 07) add LinkedBlockingQueueExample for concurrency demonstrations">
+      <option name="closed" value="true" />
+      <created>1748521987887</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1748521987887</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove project files and configurations; add concurrency example&#10;&#10;Deleted various project files, configuration settings, and dependencies, effectively resetting the repository state. Also added a new `StructuredConcurrencyExample.java` to demonstrate structured concurrency in Java." />
     <MESSAGE value="feat(day One) part 01 - Criar um servidor HTTP com virtual threads para processar 10.000 requisições simultâneas, usando java.net.http" />
     <MESSAGE value="feat(day One) final project Day 01" />
     <MESSAGE value="feat(day Two) final project Day 02" />
@@ -792,10 +736,14 @@
     <MESSAGE value="feat(day 07) add concurrency queue examples and update project configurations" />
     <MESSAGE value="feat(day 07) add Task class and LinkedListQueueExample for concurrency demonstrations" />
     <MESSAGE value="feat(day 07) add ConcurrentQueueExample for concurrency demonstrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(day 07) add ConcurrentQueueExample for concurrency demonstrations" />
+    <MESSAGE value="feat(day 07) add LinkedBlockingQueueExample for concurrency demonstrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(day 07) add LinkedBlockingQueueExample for concurrency demonstrations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Daily_Practice$LinkedBlockingQueueExample.ic" NAME="LinkedBlockingQueueExample Coverage Results" MODIFIED="1748523095199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
