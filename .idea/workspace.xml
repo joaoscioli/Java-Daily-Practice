@@ -14,13 +14,18 @@
       <module name="dia-05" />
       <module name="dia-06" />
       <module name="dia-01" />
+      <module name="dia-08" />
+      <module name="demo-api" />
+      <module name="api_demo.main" />
+      <module name="api_demo.test" />
+      <module name="demo-api.main" />
+      <module name="demo-api.test" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="chore: update IntelliJ IDE configuration files&#10;&#10;Adjusted `.idea` project configuration files to reflect changes in VCS mappings, module loading, and run configurations. Cleared outdated entries and synchronized project settings.">
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/task_executorService/ProjectQueueSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/task_executorService/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semana-01/dia-07/src/task_executorService/Worker.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day 07) final project add ProjectQueueSystem with prioritized task execution">
+      <change afterPath="$PROJECT_DIR$/semana-02/dia-08/demo-api/src/main/java/org/example/demoapi/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semana-02/dia-08/demo-api/src/main/java/org/example/demoapi/UsuarioRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +37,24 @@
     <projectState path="$PROJECT_DIR$/Day04/JwtAuthenticationProject">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/semana-01/dia-01/api_demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/semana-02/dia-08/demo-api">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api_demo" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -49,9 +65,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
-        <option value="Interface" />
-        <option value="Record" />
         <option value="Class" />
+        <option value="Record" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -99,6 +115,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.ParallelStreamExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProjectCrawlerWeb.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProjectQueueSystem.executor&quot;: &quot;Run&quot;,
     &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StructuredConcurrency.executor&quot;: &quot;Run&quot;,
     &quot;Application.StructuredTaskScopeTest.executor&quot;: &quot;Run&quot;,
@@ -171,11 +188,11 @@
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\Day01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-02" />
+      <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-02\dia-01" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-08\src" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01" />
       <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-04\src" />
-      <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-03\src" />
-      <recent name="C:\Users\joaos\Git_JoaoScioli\Java-Daily-Practice\semana-01\dia-03" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +205,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ProjectQueueSystem">
     <configuration name="ProjectQueueSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task_executorService.ProjectQueueSystem" />
       <module name="dia-07" />
@@ -229,6 +246,20 @@
         </option>
       </MavenSettings>
       <method v="2" />
+    </configuration>
+    <configuration name="ApiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api_demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.api_demo.ApiDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.demoapi.DemoApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
@@ -320,15 +351,8 @@
       <workItem from="1747868610815" duration="2628000" />
       <workItem from="1748439967949" duration="8278000" />
       <workItem from="1748522232635" duration="2448000" />
-      <workItem from="1748525741921" duration="2986000" />
-    </task>
-    <task id="LOCAL-00035" summary="feat (package infrastructure) add packages and subpackages infrastructure to project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1738797288203</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1738797288203</updated>
+      <workItem from="1748525741921" duration="3155000" />
+      <workItem from="1748643084930" duration="2315000" />
     </task>
     <task id="LOCAL-00036" summary="feat (package infrastructure) add classes and repository to project ecommerce-api">
       <option name="closed" value="true" />
@@ -714,7 +738,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748526780318</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="feat(day 07) final project add ProjectQueueSystem with prioritized task execution">
+      <option name="closed" value="true" />
+      <created>1748528923208</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1748528923208</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +756,6 @@
     <module name="JwtAuthenticationProject" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(day Two) final project Day 02" />
     <MESSAGE value="Add RetryExample and day 03 configuration files&#10;&#10;Introduced a `RetryExample` class demonstrating a retry mechanism with CompletableFuture. Configurations and annotations for day 03 were added, including module settings and a reference to resilience design patterns for further reading." />
     <MESSAGE value="Add CircuitBreakerExample and update day 03 configs&#10;&#10;Introduced a `CircuitBreakerExample` class utilizing Resilience4j to demonstrate circuit breaker functionality. Updated day 03 module configuration with relevant Resilience4j dependencies and project annotations. Enhanced development setup for improved fault tolerance exploration." />
     <MESSAGE value="Add CircuitBreaker and Retry examples using Resilience4j  &#10;&#10;Introduced `CircuitBreakerRetry` and `RetryExampleTwo` classes to demonstrate fault tolerance with circuit breaker and retry mechanisms. Updated day 03 configurations to include Resilience4j dependencies for practical resilience pattern applications. Enhanced project for improved handling of transient failures." />
@@ -749,7 +780,8 @@
     <MESSAGE value="feat(day 07) add LinkedBlockingQueueExample for concurrency demonstrations" />
     <MESSAGE value="feat(day 07) add additional queue examples for concurrency demonstrations&#10;&#10;Added `SynchronousQueueExample`, `PriorityQueueExample`, `ArrayBlockingQueueExample`, and `PriorityBlockingQueueExample` to demonstrate various queue implementations for concurrent programming in Java. Updated project configurations accordingly." />
     <MESSAGE value="chore: update IntelliJ IDE configuration files&#10;&#10;Adjusted `.idea` project configuration files to reflect changes in VCS mappings, module loading, and run configurations. Cleared outdated entries and synchronized project settings." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update IntelliJ IDE configuration files&#10;&#10;Adjusted `.idea` project configuration files to reflect changes in VCS mappings, module loading, and run configurations. Cleared outdated entries and synchronized project settings." />
+    <MESSAGE value="feat(day 07) final project add ProjectQueueSystem with prioritized task execution" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(day 07) final project add ProjectQueueSystem with prioritized task execution" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
