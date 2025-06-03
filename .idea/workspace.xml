@@ -24,8 +24,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day 08) initialize Spring Boot project API with JPA integration&#10;&#10;Added a new `demo-api` project under `semana-02/dia-08` utilizing Spring Boot. Included JPA integration, H2 database, and basic configurations. Added `Usuario` entity, `UsuarioRepository` interface, and corresponding test class.">
-      <change afterPath="$PROJECT_DIR$/semana-02/dia-08/demo-api/src/main/java/org/example/demoapi/UsuarioController.java" afterDir="false" />
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day 08) enhance `UsuarioController` with improved validation and additional endpoints&#10;&#10;Refined validation logic using record patterns, added `buscarPorId` and `atualizar` endpoints, and improved exception handling for better error messaging.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -353,23 +352,8 @@
       <workItem from="1748522232635" duration="2448000" />
       <workItem from="1748525741921" duration="3155000" />
       <workItem from="1748643084930" duration="2414000" />
-      <workItem from="1748909749749" duration="1564000" />
-    </task>
-    <task id="LOCAL-00037" summary="fix (fixes bug security) fix bug SecurityConfig class remove csfr to project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1739055777576</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1739055777576</updated>
-    </task>
-    <task id="LOCAL-00038" summary="feat (new packages) add package adapter and sub packages to project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1739315061551</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1739315061551</updated>
+      <workItem from="1748909749749" duration="1693000" />
+      <workItem from="1748946515281" duration="11000" />
     </task>
     <task id="LOCAL-00039" summary="feat (add ProductController) add class ProductController to project ecommerce-api">
       <option name="closed" value="true" />
@@ -747,7 +731,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748645493171</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="feat(day 08) add `UsuarioController` with CRUD endpoints&#10;&#10;Introduced `UsuarioController` to manage user entities. Added CRUD endpoints for creating, listing, updating, and deleting users with appropriate validations and exception handling.">
+      <option name="closed" value="true" />
+      <created>1748911357129</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1748911357130</updated>
+    </task>
+    <task id="LOCAL-00087" summary="feat(day 08) enhance `UsuarioController` with improved validation and additional endpoints&#10;&#10;Refined validation logic using record patterns, added `buscarPorId` and `atualizar` endpoints, and improved exception handling for better error messaging.">
+      <option name="closed" value="true" />
+      <created>1748911461951</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1748911461951</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -757,8 +757,6 @@
     <module name="JwtAuthenticationProject" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add CircuitBreakerExample and update day 03 configs&#10;&#10;Introduced a `CircuitBreakerExample` class utilizing Resilience4j to demonstrate circuit breaker functionality. Updated day 03 module configuration with relevant Resilience4j dependencies and project annotations. Enhanced development setup for improved fault tolerance exploration." />
-    <MESSAGE value="Add CircuitBreaker and Retry examples using Resilience4j  &#10;&#10;Introduced `CircuitBreakerRetry` and `RetryExampleTwo` classes to demonstrate fault tolerance with circuit breaker and retry mechanisms. Updated day 03 configurations to include Resilience4j dependencies for practical resilience pattern applications. Enhanced project for improved handling of transient failures." />
     <MESSAGE value="Add RetryExampleThree to demonstrate retry mechanism&#10;&#10;Introduced `RetryExampleThree` class utilizing Resilience4j to implement a retry mechanism with custom configurations. This enhances fault tolerance handling by showcasing automated retries for transient failures. Associated project files and settings were also updated to reflect these changes." />
     <MESSAGE value="Add CircuitBreakerExampleTwo to demonstrate fault tolerance&#10;&#10;Introduced `CircuitBreakerExampleTwo` class using Resilience4j to showcase circuit breaker and retry mechanisms with custom configurations. This example enhances understanding of handling transient failures through automated retries and circuit breaking. Associated project files were updated for consistency." />
     <MESSAGE value="feat(final project) final project final day 03" />
@@ -782,7 +780,9 @@
     <MESSAGE value="chore: update IntelliJ IDE configuration files&#10;&#10;Adjusted `.idea` project configuration files to reflect changes in VCS mappings, module loading, and run configurations. Cleared outdated entries and synchronized project settings." />
     <MESSAGE value="feat(day 07) final project add ProjectQueueSystem with prioritized task execution" />
     <MESSAGE value="feat(day 08) initialize Spring Boot project API with JPA integration&#10;&#10;Added a new `demo-api` project under `semana-02/dia-08` utilizing Spring Boot. Included JPA integration, H2 database, and basic configurations. Added `Usuario` entity, `UsuarioRepository` interface, and corresponding test class." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(day 08) initialize Spring Boot project API with JPA integration&#10;&#10;Added a new `demo-api` project under `semana-02/dia-08` utilizing Spring Boot. Included JPA integration, H2 database, and basic configurations. Added `Usuario` entity, `UsuarioRepository` interface, and corresponding test class." />
+    <MESSAGE value="feat(day 08) add `UsuarioController` with CRUD endpoints&#10;&#10;Introduced `UsuarioController` to manage user entities. Added CRUD endpoints for creating, listing, updating, and deleting users with appropriate validations and exception handling." />
+    <MESSAGE value="feat(day 08) enhance `UsuarioController` with improved validation and additional endpoints&#10;&#10;Refined validation logic using record patterns, added `buscarPorId` and `atualizar` endpoints, and improved exception handling for better error messaging." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(day 08) enhance `UsuarioController` with improved validation and additional endpoints&#10;&#10;Refined validation logic using record patterns, added `buscarPorId` and `atualizar` endpoints, and improved exception handling for better error messaging." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
