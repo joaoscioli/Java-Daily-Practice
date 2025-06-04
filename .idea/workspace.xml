@@ -21,10 +21,11 @@
       <module name="api_demo" />
       <module name="demo-api.main" />
       <module name="demo-api.test" />
+      <module name="demo-security" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(day 08) finally project day 08 &quot;Criar uma API REST com Spring Boot 3.3 para gerenciamento de usuários, usando record patterns (JEP 440).&quot;">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="delete(file) delete file dia-01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,6 +261,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.demosecurity.DemoSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -353,15 +361,7 @@
       <workItem from="1748525741921" duration="3155000" />
       <workItem from="1748643084930" duration="2414000" />
       <workItem from="1748909749749" duration="1693000" />
-      <workItem from="1748946515281" duration="5257000" />
-    </task>
-    <task id="LOCAL-00040" summary="doc (doc) add doc class ProductController to project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1739406332417</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1739406332417</updated>
+      <workItem from="1748946515281" duration="6524000" />
     </task>
     <task id="LOCAL-00041" summary="feat (Order class) add Order class domain.model to project ecommerce-api">
       <option name="closed" value="true" />
@@ -747,7 +747,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748946802387</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="delete(file) delete file dia-01">
+      <option name="closed" value="true" />
+      <created>1748998735720</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1748998735720</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -757,7 +765,6 @@
     <module name="JwtAuthenticationProject" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add CircuitBreakerExampleTwo to demonstrate fault tolerance&#10;&#10;Introduced `CircuitBreakerExampleTwo` class using Resilience4j to showcase circuit breaker and retry mechanisms with custom configurations. This example enhances understanding of handling transient failures through automated retries and circuit breaking. Associated project files were updated for consistency." />
     <MESSAGE value="feat(final project) final project final day 03" />
     <MESSAGE value="feat: add ScopedValue example and User record&#10;&#10;Introduced `ScopeValueExampleOne` class to demonstrate the use of scoped values in Java, providing a practical example with the `User` record. Updated project files to include new implementations for day 04." />
     <MESSAGE value="feat: add VirtualThread examples for day 04&#10;&#10;Introduced `VirtualThreadExampleOne` and `VirtualThreadExampleTwo` to demonstrate the usage of virtual threads in Java. These examples illustrate creating and managing virtual threads for concurrency. Updated workspace and project configurations accordingly." />
@@ -782,7 +789,8 @@
     <MESSAGE value="feat(day 08) add `UsuarioController` with CRUD endpoints&#10;&#10;Introduced `UsuarioController` to manage user entities. Added CRUD endpoints for creating, listing, updating, and deleting users with appropriate validations and exception handling." />
     <MESSAGE value="feat(day 08) enhance `UsuarioController` with improved validation and additional endpoints&#10;&#10;Refined validation logic using record patterns, added `buscarPorId` and `atualizar` endpoints, and improved exception handling for better error messaging." />
     <MESSAGE value="feat(day 08) finally project day 08 &quot;Criar uma API REST com Spring Boot 3.3 para gerenciamento de usuários, usando record patterns (JEP 440).&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(day 08) finally project day 08 &quot;Criar uma API REST com Spring Boot 3.3 para gerenciamento de usuários, usando record patterns (JEP 440).&quot;" />
+    <MESSAGE value="delete(file) delete file dia-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete(file) delete file dia-01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
