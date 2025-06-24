@@ -5,28 +5,31 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="Java-Daily-Practice" />
-      <module name="dia-07" />
-      <module name="dia-02" />
-      <module name="semana-01" />
-      <module name="dia-03" />
-      <module name="dia-04" />
-      <module name="dia-05" />
-      <module name="dia-06" />
+      <module name="demo-api.main" />
       <module name="dia-01" />
+      <module name="dia-05" />
+      <module name="demo-security" />
+      <module name="semana-01" />
       <module name="dia-08" />
+      <module name="dia-04" />
+      <module name="demo-api.test" />
+      <module name="dia-03" />
+      <module name="dia-07" />
+      <module name="Java-Daily-Practice" />
+      <module name="api_demo.test" />
       <module name="demo-api" />
       <module name="api_demo.main" />
-      <module name="api_demo.test" />
+      <module name="dia-02" />
+      <module name="dia-06" />
       <module name="api_demo" />
-      <module name="demo-api.main" />
-      <module name="demo-api.test" />
-      <module name="demo-security" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="delete(file) delete file dia-01">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(new project) init project dia 09">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semana-02/dia-09/demo-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +83,12 @@
     &quot;assignee&quot;: &quot;joaoscioli&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/joaoscioli/Java-Daily-Practice.git&quot;,
-    &quot;accountId&quot;: &quot;67a8006e-8d3f-4d06-913f-8196a06eca46&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/joaoscioli/Java-Daily-Practice.git",
+    "accountId": "ef89f660-3301-4e8b-9101-2fb09ce1522a"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -283,8 +286,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-60c2bc820a0d-intellij.indexing.shared.core-IU-252.18003.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-d8cef83ef014-JavaScript-IU-252.18003.27" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23309.22" />
+        <option value="bundled-js-predefined-d6986cc7102b-6be00b7b0f42-JavaScript-IU-252.23309.22" />
       </set>
     </attachedChunks>
   </component>
@@ -361,15 +364,8 @@
       <workItem from="1748525741921" duration="3155000" />
       <workItem from="1748643084930" duration="2414000" />
       <workItem from="1748909749749" duration="1693000" />
-      <workItem from="1748946515281" duration="6524000" />
-    </task>
-    <task id="LOCAL-00041" summary="feat (Order class) add Order class domain.model to project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1739493272429</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1739493272429</updated>
+      <workItem from="1748946515281" duration="6658000" />
+      <workItem from="1750804064380" duration="2265000" />
     </task>
     <task id="LOCAL-00042" summary="feat (Cart class) add Cart class domain.model to project ecommerce-api">
       <option name="closed" value="true" />
@@ -755,7 +751,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748998735720</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="feat(new project) init project dia 09">
+      <option name="closed" value="true" />
+      <created>1748999924097</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1748999924097</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,9 +767,9 @@
   </component>
   <component name="UnloadedModulesList">
     <module name="JwtAuthenticationProject" />
+    <module name="dia-09" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(final project) final project final day 03" />
     <MESSAGE value="feat: add ScopedValue example and User record&#10;&#10;Introduced `ScopeValueExampleOne` class to demonstrate the use of scoped values in Java, providing a practical example with the `User` record. Updated project files to include new implementations for day 04." />
     <MESSAGE value="feat: add VirtualThread examples for day 04&#10;&#10;Introduced `VirtualThreadExampleOne` and `VirtualThreadExampleTwo` to demonstrate the usage of virtual threads in Java. These examples illustrate creating and managing virtual threads for concurrency. Updated workspace and project configurations accordingly." />
     <MESSAGE value="feat(project day 04) finish project day 04, use ScopedValue and VirtualThread" />
@@ -790,7 +794,8 @@
     <MESSAGE value="feat(day 08) enhance `UsuarioController` with improved validation and additional endpoints&#10;&#10;Refined validation logic using record patterns, added `buscarPorId` and `atualizar` endpoints, and improved exception handling for better error messaging." />
     <MESSAGE value="feat(day 08) finally project day 08 &quot;Criar uma API REST com Spring Boot 3.3 para gerenciamento de usuários, usando record patterns (JEP 440).&quot;" />
     <MESSAGE value="delete(file) delete file dia-01" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete(file) delete file dia-01" />
+    <MESSAGE value="feat(new project) init project dia 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(new project) init project dia 09" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
