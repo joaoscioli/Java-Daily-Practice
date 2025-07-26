@@ -5,31 +5,28 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="demo-api.main" />
       <module name="dia-01" />
       <module name="dia-05" />
-      <module name="demo-security" />
       <module name="semana-01" />
-      <module name="dia-08" />
-      <module name="dia-04" />
       <module name="demo-api.test" />
+      <module name="dia-04" />
+      <module name="dia-08" />
+      <module name="demo-security" />
+      <module name="api_demo.test" />
       <module name="dia-03" />
       <module name="dia-07" />
-      <module name="Java-Daily-Practice" />
-      <module name="api_demo.test" />
       <module name="demo-api" />
       <module name="api_demo.main" />
       <module name="dia-02" />
+      <module name="demo-api.main" />
       <module name="dia-06" />
-      <module name="api_demo" />
+      <module name="Java-Daily-Practice" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(new project) init project dia 09">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(add file SecurityConfig) add init config class SecurityConfig to project dia 09">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana-02/dia-09/demo-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +80,12 @@
     &quot;assignee&quot;: &quot;joaoscioli&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/joaoscioli/Java-Daily-Practice.git",
-    "accountId": "ef89f660-3301-4e8b-9101-2fb09ce1522a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/joaoscioli/Java-Daily-Practice.git&quot;,
+    &quot;accountId&quot;: &quot;ef89f660-3301-4e8b-9101-2fb09ce1522a&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -286,8 +283,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23309.22" />
-        <option value="bundled-js-predefined-d6986cc7102b-6be00b7b0f42-JavaScript-IU-252.23309.22" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.248" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.248" />
       </set>
     </attachedChunks>
   </component>
@@ -365,31 +362,9 @@
       <workItem from="1748643084930" duration="2414000" />
       <workItem from="1748909749749" duration="1693000" />
       <workItem from="1748946515281" duration="6658000" />
-      <workItem from="1750804064380" duration="2265000" />
-    </task>
-    <task id="LOCAL-00042" summary="feat (Cart class) add Cart class domain.model to project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1739493383524</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1739493383524</updated>
-    </task>
-    <task id="LOCAL-00043" summary="feat (User class) add User class domain.model to project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1739493514994</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1739493514994</updated>
-    </task>
-    <task id="LOCAL-00044" summary="feat (Role class) add Role class domain.model to project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1739493561515</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1739493561515</updated>
+      <workItem from="1750804064380" duration="2556000" />
+      <workItem from="1750897643993" duration="6000" />
+      <workItem from="1753567797893" duration="1874000" />
     </task>
     <task id="LOCAL-00045" summary="feat (Repository interface) add OrderRepository domain.repository to project ecommerce-api">
       <option name="closed" value="true" />
@@ -759,7 +734,31 @@
       <option name="project" value="LOCAL" />
       <updated>1748999924097</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="feat(user class) add features to User class to project dia 09">
+      <option name="closed" value="true" />
+      <created>1750806499146</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1750806499146</updated>
+    </task>
+    <task id="LOCAL-00092" summary="update(add update properties) add updates files config to project dia 09">
+      <option name="closed" value="true" />
+      <created>1750806548148</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1750806548148</updated>
+    </task>
+    <task id="LOCAL-00093" summary="feat(add file SecurityConfig) add init config class SecurityConfig to project dia 09">
+      <option name="closed" value="true" />
+      <created>1750806696726</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1750806696726</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -770,9 +769,6 @@
     <module name="dia-09" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add ScopedValue example and User record&#10;&#10;Introduced `ScopeValueExampleOne` class to demonstrate the use of scoped values in Java, providing a practical example with the `User` record. Updated project files to include new implementations for day 04." />
-    <MESSAGE value="feat: add VirtualThread examples for day 04&#10;&#10;Introduced `VirtualThreadExampleOne` and `VirtualThreadExampleTwo` to demonstrate the usage of virtual threads in Java. These examples illustrate creating and managing virtual threads for concurrency. Updated workspace and project configurations accordingly." />
-    <MESSAGE value="feat(project day 04) finish project day 04, use ScopedValue and VirtualThread" />
     <MESSAGE value="Add CrawlerExampleOne to scrape webpage content&#10;&#10;Introduced `CrawlerExampleOne` in `dia-05` to demonstrate basic web scraping using Jsoup. Updated project configuration and replaced references to previous examples with the new class. This finalizes enhancements for day 05." />
     <MESSAGE value="Add ApiCrawler to perform API data fetching&#10;&#10;Introduced `ApiCrawler` class in `dia-05` to fetch data from APIs using `HttpURLConnection`. Updated project configurations to include new references and replaced outdated components. This sets up the foundation for API interaction examples." />
     <MESSAGE value="Add HTTP client examples for API interaction and web crawling&#10;&#10;Introduced `HttpClientAsyncExample`, `HttpClientEx`, and `ProjectCrawlerWeb` in `dia-05` to demonstrate asynchronous and synchronous HTTP client usage, as well as basic web crawling. Updated project configuration files accordingly to include the new classes." />
@@ -795,7 +791,10 @@
     <MESSAGE value="feat(day 08) finally project day 08 &quot;Criar uma API REST com Spring Boot 3.3 para gerenciamento de usuários, usando record patterns (JEP 440).&quot;" />
     <MESSAGE value="delete(file) delete file dia-01" />
     <MESSAGE value="feat(new project) init project dia 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(new project) init project dia 09" />
+    <MESSAGE value="feat(user class) add features to User class to project dia 09" />
+    <MESSAGE value="update(add update properties) add updates files config to project dia 09" />
+    <MESSAGE value="feat(add file SecurityConfig) add init config class SecurityConfig to project dia 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(add file SecurityConfig) add init config class SecurityConfig to project dia 09" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
