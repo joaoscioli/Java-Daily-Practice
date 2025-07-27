@@ -24,7 +24,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="feat(add file SecurityConfig) add init config class SecurityConfig to project dia 09">
+    <list default="true" id="170e3473-f146-4ca9-9ce8-dfcdd2c03bb6" name="Changes" comment="fix(error implementation security) add classes SecurityConfig, but error authentication to project dia 09">
+      <change afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/semana-02/dia-09/demo-security/src/main/java/org/example/demosecurity/SecurityConfig.java" afterDir="false" />
     </list>
@@ -364,15 +366,8 @@
       <workItem from="1748946515281" duration="6658000" />
       <workItem from="1750804064380" duration="2556000" />
       <workItem from="1750897643993" duration="6000" />
-      <workItem from="1753567797893" duration="1874000" />
-    </task>
-    <task id="LOCAL-00045" summary="feat (Repository interface) add OrderRepository domain.repository to project ecommerce-api">
-      <option name="closed" value="true" />
-      <created>1739574809430</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1739574809430</updated>
+      <workItem from="1753567797893" duration="1957000" />
+      <workItem from="1753652951051" duration="912000" />
     </task>
     <task id="LOCAL-00046" summary="feat (Repository interface) add CartRepository domain.repository to project ecommerce-api">
       <option name="closed" value="true" />
@@ -758,7 +753,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750806696726</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="fix(error implementation security) add classes SecurityConfig, but error authentication to project dia 09">
+      <option name="closed" value="true" />
+      <created>1753569758455</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1753569758456</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -769,7 +772,6 @@
     <module name="dia-09" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add CrawlerExampleOne to scrape webpage content&#10;&#10;Introduced `CrawlerExampleOne` in `dia-05` to demonstrate basic web scraping using Jsoup. Updated project configuration and replaced references to previous examples with the new class. This finalizes enhancements for day 05." />
     <MESSAGE value="Add ApiCrawler to perform API data fetching&#10;&#10;Introduced `ApiCrawler` class in `dia-05` to fetch data from APIs using `HttpURLConnection`. Updated project configurations to include new references and replaced outdated components. This sets up the foundation for API interaction examples." />
     <MESSAGE value="Add HTTP client examples for API interaction and web crawling&#10;&#10;Introduced `HttpClientAsyncExample`, `HttpClientEx`, and `ProjectCrawlerWeb` in `dia-05` to demonstrate asynchronous and synchronous HTTP client usage, as well as basic web crawling. Updated project configuration files accordingly to include the new classes." />
     <MESSAGE value="feat (final project) final project day 05 crawler web with Virtual Thread" />
@@ -794,7 +796,8 @@
     <MESSAGE value="feat(user class) add features to User class to project dia 09" />
     <MESSAGE value="update(add update properties) add updates files config to project dia 09" />
     <MESSAGE value="feat(add file SecurityConfig) add init config class SecurityConfig to project dia 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(add file SecurityConfig) add init config class SecurityConfig to project dia 09" />
+    <MESSAGE value="fix(error implementation security) add classes SecurityConfig, but error authentication to project dia 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(error implementation security) add classes SecurityConfig, but error authentication to project dia 09" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
