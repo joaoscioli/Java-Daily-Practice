@@ -1,5 +1,15 @@
 # Java Daily Practice
 
+> Portfolio status: continuous practice lab.
+>
+> This repository is preserved as a structured Java practice plan. It is useful
+> to show learning discipline, repetition, and exploration of language features,
+> but it is not one of my main curated portfolio projects.
+>
+> Version references in this repository reflect the study plan at the time it
+> was written. For current production-oriented work, see my curated backend
+> projects with tests, architecture documentation, CI/CD, and reproducible setup.
+
 Bem-vindo ao **Java-Daily-Practice**, um repositório avançado para prática diária em Java, voltado para desenvolvedores com experiência sênior. Este repositório foca em projetos complexos e requisitos comuns em entrevistas técnicas de alto nível, utilizando as versões mais recentes da linguagem (Java 23, lançada em setembro de 2024) e frameworks populares como Spring Boot 3.3, Hibernate 6.5 e JUnit 5.11. Cada semana é organizada em um pacote específico, com projetos que exploram tópicos avançados e boas práticas.
 
 ## Objetivo
